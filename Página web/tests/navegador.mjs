@@ -4,14 +4,15 @@ import {writeFile,mkdir} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
+const SITE_URL=process.argv[2]||'http://localhost:4173/';
 const {chromium}=require(process.env.ATLAS_PLAYWRIGHT||'C:/Users/Exsec/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const out=fileURLToPath(new URL('../verificacion/',import.meta.url));await mkdir(out,{recursive:true});
 const browser=await chromium.launch({headless:true,executablePath:process.env.ATLAS_CHROME||'C:/Users/Exsec/AppData/Local/ms-playwright/chromium-1223/chrome-win64/chrome.exe'});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});
-const errors=[];page.on('pageerror',err=>errors.push(err.message));const failed=[];page.on('response',r=>{if(r.url().startsWith('http://localhost:4173/')&&r.status()>=400)failed.push({url:r.url(),status:r.status()});});
+const errors=[];page.on('pageerror',err=>errors.push(err.message));const failed=[];page.on('response',r=>{if(r.url().startsWith(SITE_URL)&&r.status()>=400)failed.push({url:r.url(),status:r.status()});});
 const responsive=[];let initialPerformance;const checks=[];const check=(name)=>{checks.push(name);console.log('OK',name);};
 try{
- const response=await page.goto('http://localhost:4173/',{waitUntil:'networkidle'});assert.equal(response.status(),200);
+ const response=await page.goto(SITE_URL,{waitUntil:'networkidle'});assert.equal(response.status(),200);
  await page.waitForFunction(()=>performance.getEntriesByName('atlas-ready').length>0);
  initialPerformance=await page.evaluate(()=>({readyMs:performance.getEntriesByName('atlas-ready')[0].startTime,resources:performance.getEntriesByType('resource').filter(r=>r.name.startsWith(location.origin)).map(r=>({url:new URL(r.name).pathname,bytes:r.decodedBodySize,durationMs:r.duration}))}));
  assert.ok(initialPerformance.resources.every(r=>!r.url.includes('/data/fichas/')));check('La apertura inicial no descarga la actividad de las fichas');
@@ -61,7 +62,8 @@ try{
   if([320,768,1920].includes(width))await page.screenshot({path:out+`/responsive_${width}.png`,fullPage:false});
  }
  check('16 tamaños entre 320 y 2560 px y orientación horizontal: sin desbordamiento; cabecera y ficha compactas');
- const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:1440,height:900}});const staticPage=await noJS.newPage();await staticPage.goto('http://localhost:4173/');assert.equal(await staticPage.locator('.atlas-seat').count(),166);assert.ok(await staticPage.locator('#title-Diputados').isVisible());await noJS.close();check('Astro entrega los 166 escaños en HTML antes de ejecutar JavaScript');
+ const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:1440,height:900}});const staticPage=await noJS.newPage();await staticPage.goto(SITE_URL);assert.equal(await staticPage.locator('.atlas-seat').count(),166);assert.ok(await staticPage.locator('#title-Diputados').isVisible());await noJS.close();check('Astro entrega los 166 escaños en HTML antes de ejecutar JavaScript');
+ await page.setViewportSize({width:1440,height:1000});await page.locator('#year').selectOption('2010');await page.waitForFunction(()=>document.querySelector('#chambers').dataset.year==='2010');await page.locator('.atlas-seat:not(.has-issue)').first().click();await page.getByText('Todos los campos de la nómina original',{exact:true}).click();assert.ok(await page.getByText('Omitida en esta copia pública',{exact:true}).isVisible());const safeDownload=page.waitForEvent('download');await page.locator('#download-person').click();const safeFile=await(await safeDownload).path();const {readFile:readPublic}=await import('node:fs/promises');const publicPerson=JSON.parse(await readPublic(safeFile,'utf8'));assert.equal(publicPerson.ci,'Omitida en esta copia pública');check('La ficha histórica y su descarga pública omiten la CI');
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);check('Sin errores JavaScript ni recursos estáticos fallidos');
  await writeFile(out+'/pruebas_navegador.json',JSON.stringify({resultado:'correcto',fecha:new Date().toISOString(),checks,responsive,initialPerformance,errors,failed},null,2));
 }finally{await browser.close();}

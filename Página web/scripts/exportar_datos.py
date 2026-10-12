@@ -1,5 +1,5 @@
-from sanitizar_publicacion import sanitizar
 """Exporta la base local de sólo lectura a JSON estático. No requiere paquetes."""
+from sanitizar_publicacion import sanitizar
 import argparse, csv, hashlib, json, re, sqlite3, unicodedata
 from pathlib import Path
 from collections import Counter, defaultdict
