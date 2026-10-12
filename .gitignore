@@ -16,3 +16,11 @@ Página web/verificacion/*.tar.gz
 
 # Copia preparada para el repositorio público, con su propio historial
 /Publicación GitHub/
+
+# Originales e historial privados conservados sólo en este equipo
+/.respaldo-local/
+/Investigación electoral/fuentes/*.pdf
+
+# Informes de la historia local anterior, conservados en el respaldo
+/Página web/verificacion/pruebas_main_despues_pages.json
+/Página web/verificacion/publicacion_github.json

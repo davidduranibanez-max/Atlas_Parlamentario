@@ -48,3 +48,9 @@ Consulta [la documentación de la página](Página%20web/README.md) y [las compr
 ## Versión pública
 
 Esta copia omite los números de CI de las nóminas históricas. No incluye los PDF fuente descargados; conserva sus referencias y enlaces. Los originales completos y su historial se mantienen en el proyecto local.
+
+## Sincronización desde VS Code
+
+Esta carpeta es ahora el repositorio público de trabajo. Su rama `main` está conectada con `origin/main` de `davidduranibanez-max/Atlas_Parlamentario`. Puedes hacer commit y usar **Sincronizar cambios** o **Push** en VS Code desde esta misma carpeta, sin publicar otra rama ni abrir otra copia. No se modificaron las credenciales globales ni las cuentas de otros proyectos.
+
+Los archivos originales con CI y el historial local anterior se conservaron y verificaron en `.respaldo-local/antes-conexion-github-main`. Los PDF fuente mantienen también sus rutas locales. Estos respaldos y PDF están excluidos de Git. La copia pública anterior se archivó en `.respaldo-local/copia-publica-anterior`; no se utiliza para sincronizar. La exportación del atlas retira las CI antes de escribir los JSON públicos.
