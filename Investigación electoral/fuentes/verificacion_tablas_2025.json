@@ -1,0 +1,250 @@
+{
+  "fuente": "https://web.oep.org.bo/wp-content/uploads/2025/08/30-08-2025-Separata-resultados-EG2025.pdf",
+  "metodo": "Conteo de pares titular/suplente en tablas de asignación, sin contar representantes supraestatales",
+  "normalizaciones_textuales": {
+    "MAS IPSP": "MAS-IPSP",
+    "APB SUMATE": "APB-SÚMATE",
+    "APB SÚMATE": "APB-SÚMATE",
+    "UNIDAO": "UNIDAD",
+    "BIA YUQUI": "BIA-YUQUI"
+  },
+  "totales_por_tipo": {
+    "senadores": {
+      "PDC": 16,
+      "LIBRE": 12,
+      "UNIDAD": 7,
+      "APB-SÚMATE": 1
+    },
+    "plurinominales": {
+      "PDC": 17,
+      "AP": 5,
+      "LIBRE": 17,
+      "UNIDAD": 15,
+      "MAS-IPSP": 1,
+      "APB-SÚMATE": 5
+    },
+    "uninominales": {
+      "LIBRE": 20,
+      "PDC": 30,
+      "UNIDAD": 11,
+      "AP": 2
+    },
+    "especiales": {
+      "PDC": 2,
+      "BIA-YUQUI": 1,
+      "AP": 1,
+      "LIBRE": 2,
+      "MAS-IPSP": 1
+    }
+  },
+  "detalle_por_pagina": [
+    {
+      "pagina_pdf": 5,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 2,
+          "LIBRE": 2
+        },
+        "plurinominales": {
+          "PDC": 1,
+          "AP": 1,
+          "LIBRE": 1,
+          "UNIDAD": 1
+        },
+        "uninominales": {
+          "LIBRE": 2,
+          "PDC": 3
+        }
+      }
+    },
+    {
+      "pagina_pdf": 7,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 2,
+          "LIBRE": 1,
+          "UNIDAD": 1
+        },
+        "plurinominales": {
+          "PDC": 3,
+          "MAS-IPSP": 1,
+          "APB-SÚMATE": 1,
+          "AP": 2,
+          "LIBRE": 4,
+          "UNIDAD": 3
+        },
+        "especiales": {
+          "PDC": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 8,
+      "escanos_por_tipo": {
+        "uninominales": {
+          "PDC": 11,
+          "UNIDAD": 2,
+          "LIBRE": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 12,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 2,
+          "APB-SÚMATE": 1,
+          "LIBRE": 1
+        },
+        "plurinominales": {
+          "APB-SÚMATE": 3,
+          "AP": 1,
+          "LIBRE": 3,
+          "UNIDAD": 2
+        },
+        "especiales": {
+          "BIA-YUQUI": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 13,
+      "escanos_por_tipo": {
+        "uninominales": {
+          "LIBRE": 2,
+          "PDC": 6,
+          "AP": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 16,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 3,
+          "LIBRE": 1
+        },
+        "plurinominales": {
+          "PDC": 2,
+          "LIBRE": 2
+        },
+        "especiales": {
+          "AP": 1
+        },
+        "uninominales": {
+          "PDC": 4
+        }
+      }
+    },
+    {
+      "pagina_pdf": 19,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 3,
+          "LIBRE": 1
+        },
+        "plurinominales": {
+          "PDC": 3,
+          "LIBRE": 3
+        },
+        "uninominales": {
+          "PDC": 4,
+          "UNIDAD": 1,
+          "LIBRE": 1,
+          "AP": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 22,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 1,
+          "LIBRE": 1,
+          "UNIDAD": 2
+        },
+        "plurinominales": {
+          "PDC": 1,
+          "LIBRE": 2,
+          "UNIDAD": 1
+        },
+        "especiales": {
+          "PDC": 1
+        },
+        "uninominales": {
+          "UNIDAD": 3,
+          "PDC": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 24,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 1,
+          "LIBRE": 2,
+          "UNIDAD": 1
+        },
+        "plurinominales": {
+          "PDC": 5,
+          "APB-SÚMATE": 1,
+          "AP": 1,
+          "UNIDAD": 7
+        },
+        "especiales": {
+          "LIBRE": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 25,
+      "escanos_por_tipo": {
+        "uninominales": {
+          "LIBRE": 12,
+          "PDC": 1,
+          "UNIDAD": 1
+        }
+      }
+    },
+    {
+      "pagina_pdf": 28,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 1,
+          "LIBRE": 1,
+          "UNIDAD": 2
+        },
+        "plurinominales": {
+          "PDC": 1,
+          "LIBRE": 2
+        },
+        "especiales": {
+          "LIBRE": 1
+        },
+        "uninominales": {
+          "UNIDAD": 4
+        }
+      }
+    },
+    {
+      "pagina_pdf": 30,
+      "escanos_por_tipo": {
+        "senadores": {
+          "PDC": 1,
+          "LIBRE": 2,
+          "UNIDAD": 1
+        },
+        "plurinominales": {
+          "PDC": 1,
+          "UNIDAD": 1
+        },
+        "especiales": {
+          "MAS-IPSP": 1
+        },
+        "uninominales": {
+          "LIBRE": 2
+        }
+      }
+    }
+  ]
+}

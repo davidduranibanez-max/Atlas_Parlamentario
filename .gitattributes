@@ -1,0 +1,12 @@
+# Los archivos de texto se versionan de forma uniforme entre Windows y WSL.
+* text=auto
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.astro text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+*.md text eol=lf

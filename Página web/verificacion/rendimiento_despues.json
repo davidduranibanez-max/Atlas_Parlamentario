@@ -1,0 +1,85 @@
+{
+  "fecha": "2026-10-11T22:17:07.956Z",
+  "alcance": "Bytes sin compresión de HTML, JS, CSS y JSON iniciales de 2025; mismas clases de archivos que la línea base. No incluye imágenes ni fichas adicionales.",
+  "antes_bytes": 3665985,
+  "despues_bytes": 418122,
+  "reduccion_porcentaje": 88.59,
+  "json_2025_antes": 3465679,
+  "json_2025_despues": 271141,
+  "archivos": [
+    {
+      "archivo": "dist/index.html",
+      "bytes": 53110
+    },
+    {
+      "archivo": "dist/_astro/index.astro_astro_type_script_index_0_lang.DcmDpD6k.js",
+      "bytes": 31813
+    },
+    {
+      "archivo": "dist/_astro/index.jiBTb_LL.css",
+      "bytes": 26990
+    },
+    {
+      "archivo": "dist/data/manifest.json",
+      "bytes": 34928
+    },
+    {
+      "archivo": "dist/data/lineas_tiempo.json",
+      "bytes": 140
+    },
+    {
+      "archivo": "dist/data/gestiones/bo-eleccion-2025.json",
+      "bytes": 271141
+    }
+  ],
+  "medicion_navegador": {
+    "readyMs": 607,
+    "resources": [
+      {
+        "url": "/_astro/index.jiBTb_LL.css",
+        "bytes": 26990,
+        "durationMs": 13.800000011920929
+      },
+      {
+        "url": "/assets/template/plano-diputados.svg",
+        "bytes": 15726,
+        "durationMs": 34.599999994039536
+      },
+      {
+        "url": "/assets/template/plano-senadores.svg",
+        "bytes": 5477,
+        "durationMs": 44.20000000298023
+      },
+      {
+        "url": "/_astro/index.astro_astro_type_script_index_0_lang.DcmDpD6k.js",
+        "bytes": 31813,
+        "durationMs": 24.200000002980232
+      },
+      {
+        "url": "/data/manifest.json",
+        "bytes": 34928,
+        "durationMs": 11.199999988079071
+      },
+      {
+        "url": "/data/lineas_tiempo.json",
+        "bytes": 140,
+        "durationMs": 21.200000002980232
+      },
+      {
+        "url": "/assets/template/favicon.svg",
+        "bytes": 712,
+        "durationMs": 28.599999994039536
+      },
+      {
+        "url": "/data/gestiones/bo-eleccion-2025.json",
+        "bytes": 271141,
+        "durationMs": 19.700000002980232
+      },
+      {
+        "url": "/assets/template/favicon.svg",
+        "bytes": 712,
+        "durationMs": 10.799999997019768
+      }
+    ]
+  }
+}

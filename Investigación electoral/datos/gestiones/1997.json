@@ -1,0 +1,175 @@
+{
+  "id": "bo-eleccion-1997",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 1997,
+    "fecha": "1997-06-01",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "1997–2002",
+    "anio_inicio_ejercicio": 1997,
+    "anio_fin_ejercicio": 2002,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": false
+  },
+  "institucion": "Congreso Nacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 68,
+      "plurinominales": 62,
+      "especiales": 0
+    }
+  },
+  "camara_senadores": {
+    "total": 27,
+    "por_departamento": 3
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-1997-adn-nfr-pdc",
+      "sigla": "ADN-NFR-PDC",
+      "diputados": 32,
+      "senadores": 11,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-1997-mnr-mrtkl",
+      "sigla": "MNR-MRTKL",
+      "diputados": 26,
+      "senadores": 4,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-1997-mir-nm",
+      "sigla": "MIR-NM",
+      "diputados": 23,
+      "senadores": 7,
+      "color_editorial": "#298376"
+    },
+    {
+      "id": "bo-1997-ucs",
+      "sigla": "UCS",
+      "diputados": 21,
+      "senadores": 2,
+      "color_editorial": "#a66e12"
+    },
+    {
+      "id": "bo-1997-condepa-mp",
+      "sigla": "CONDEPA-MP",
+      "diputados": 19,
+      "senadores": 3,
+      "color_editorial": "#755da2"
+    },
+    {
+      "id": "bo-1997-mbl",
+      "sigla": "MBL",
+      "diputados": 5,
+      "senadores": 0,
+      "color_editorial": "#bb5934"
+    },
+    {
+      "id": "bo-1997-iu",
+      "sigla": "IU",
+      "diputados": 4,
+      "senadores": 0,
+      "color_editorial": "#567d35"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 11,
+      "uninominales": 6,
+      "plurinominales": 5,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 31,
+      "uninominales": 16,
+      "plurinominales": 15,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 18,
+      "uninominales": 9,
+      "plurinominales": 9,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 10,
+      "uninominales": 5,
+      "plurinominales": 5,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 15,
+      "uninominales": 8,
+      "plurinominales": 7,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 5,
+      "plurinominales": 4,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 22,
+      "uninominales": 11,
+      "plurinominales": 11,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 9,
+      "uninominales": 5,
+      "plurinominales": 4,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 5,
+      "uninominales": 3,
+      "plurinominales": 2,
+      "especiales": 0,
+      "senadores": 3
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución reformada en 1994–1995; Ley 1246; Ley 1704, de 2 de agosto de 1996",
+    "formula_diputados": "Sistema mixto: mayoría relativa uninominal y divisores naturales con compensación de las victorias uninominales",
+    "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+    "nota": "68 uninominales y 62 de lista; umbral nacional de 3% para la asignación por lista"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "atlas_1997_2002",
+      "paginas_pdf": [
+        5,
+        6,
+        9
+      ],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    }
+  ],
+  "observaciones": [],
+  "mapa": "mapas/1997_escanos.png"
+}

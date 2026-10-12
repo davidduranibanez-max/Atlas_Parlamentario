@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_05f63dbb42c4131e",
+  "camara": "SENADORES",
+  "nombre_completo": "BRANKO GORAN MARINKOVIC JOVICEVIC",
+  "nombres": "BRANKO GORAN",
+  "apellidos": "MARINKOVIC JOVICEVIC",
+  "departamento": "Santa Cruz",
+  "partido_id": "P_e9768dff308f44e6",
+  "titularidad": "TITULAR",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/110",
+  "foto_url": "https://apisi.senado.gob.bo/images/a288394c-6a29-4bcc-a6b8-241839e09f95_1787059605.jpeg",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "LIBRE",
+  "partido_nombre": "ALIANZA LIBRE",
+  "mandatos": [
+    {
+      "mandato_id": "M_3e24ea83165bc3e6",
+      "legislador_id": "L_05f63dbb42c4131e",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

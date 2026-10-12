@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_bce28a2166d86746",
+  "camara": "SENADORES",
+  "nombre_completo": "LORGIO FERNANDO PAREJA SAUCEDO",
+  "nombres": "LORGIO FERNANDO",
+  "apellidos": "PAREJA SAUCEDO",
+  "departamento": "Santa Cruz",
+  "partido_id": "P_61cae1aa064423c1",
+  "titularidad": "SUPLENTE",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/115",
+  "foto_url": "https://apisi.senado.gob.bo/images/a12c6981-a122-4626-9a41-51f406d1773d_1772121207.png",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "UNIDAD",
+  "partido_nombre": "ALIANZA UNIDAD",
+  "mandatos": [
+    {
+      "mandato_id": "M_4eeca2357ea2ecc8",
+      "legislador_id": "L_bce28a2166d86746",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

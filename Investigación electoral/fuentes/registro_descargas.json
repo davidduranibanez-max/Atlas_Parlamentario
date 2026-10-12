@@ -1,0 +1,58 @@
+[
+  {
+    "archivo": "atlas_III_1.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_tomo-I_Cap_III-1.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 15122323,
+    "sha256": "7d8a1229c4875a380a309c594df91416b89b38b34bdd29df66d6b6210a8831c6"
+  },
+  {
+    "archivo": "atlas_III_2.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_tomo-I_Cap_III-2.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 14157412,
+    "sha256": "d3ce060d9f399854546e9b8703a2d7a20c1efa38d7bdcedbca2bb47edc320f50"
+  },
+  {
+    "archivo": "atlas_IV.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_Tomo_IV.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 24124539,
+    "sha256": "6788363d190934ed298caac729fe2c30db7372a7b16f7faab5ac075af64433c3"
+  },
+  {
+    "archivo": "atlas_I_II.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/03/Atlas_Electoral_tomo-I_Cap_I-II.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 20562858,
+    "sha256": "1c9431acc58124896dc88827ca4ddec72e8d9dd2a9cd69de535ea737d6950dd5"
+  },
+  {
+    "archivo": "atlas_I_cap_IV.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/03/Atlas_Electoral_tomo-I_Cap_IV.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 22747332,
+    "sha256": "2d6b6135fbad2fb179a2b2ed930905d8293208af2b13fd47307cad8a8b2b250c"
+  },
+  {
+    "archivo": "compendio_2020.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2020/10/Compendio_EG_2020.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 2763234,
+    "sha256": "94514ab1430ff637daa9d99dce5f965abc3c3722745ed0b13f8f6a0610d9e292"
+  },
+  {
+    "archivo": "compendio_2025.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2025/09/Compendio-EG-2025.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 4757041,
+    "sha256": "88ccf2990e15edee50fdbde988a60ab1cf011a7e6237fafd28e1aee7a445ec85"
+  },
+  {
+    "archivo": "resultados_2025.pdf",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2025/08/30-08-2025-Separata-resultados-EG2025.pdf",
+    "fecha_consulta": "2026-10-11",
+    "bytes": 1547285,
+    "sha256": "5c7a2be0e3eefa53294bc0b7b62d68ac3330b1066a9aba87988221e9babd2439"
+  }
+]

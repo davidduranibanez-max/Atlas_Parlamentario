@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_4ff3b7949b0dacf2",
+  "camara": "SENADORES",
+  "nombre_completo": "ROGER MAMANI CORONADO",
+  "nombres": "ROGER",
+  "apellidos": "MAMANI CORONADO",
+  "departamento": "Potosí",
+  "partido_id": "P_e9768dff308f44e6",
+  "titularidad": "SUPLENTE",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/134",
+  "foto_url": "https://apisi.senado.gob.bo/images/a12c8051-715d-422b-bc15-f6366b6cf14e_1772125034.png",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "LIBRE",
+  "partido_nombre": "ALIANZA LIBRE",
+  "mandatos": [
+    {
+      "mandato_id": "M_504877bccd67b6ec",
+      "legislador_id": "L_4ff3b7949b0dacf2",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

@@ -1,0 +1,148 @@
+{
+  "id": "bo-eleccion-2020",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 2020,
+    "fecha": "2020-10-18",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "2020–2025",
+    "anio_inicio_ejercicio": 2020,
+    "anio_fin_ejercicio": 2025,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": false
+  },
+  "institucion": "Asamblea Legislativa Plurinacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 63,
+      "plurinominales": 60,
+      "especiales": 7
+    }
+  },
+  "camara_senadores": {
+    "total": 36,
+    "por_departamento": 4
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-2020-mas-ipsp",
+      "sigla": "MAS-IPSP",
+      "diputados": 75,
+      "senadores": 21,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-2020-cc",
+      "sigla": "CC",
+      "diputados": 39,
+      "senadores": 11,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-2020-creemos",
+      "sigla": "CREEMOS",
+      "diputados": 16,
+      "senadores": 4,
+      "color_editorial": "#298376"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 10,
+      "uninominales": 5,
+      "plurinominales": 5,
+      "especiales": 0,
+      "senadores": 4
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 29,
+      "uninominales": 14,
+      "plurinominales": 14,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 19,
+      "uninominales": 9,
+      "plurinominales": 9,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 9,
+      "uninominales": 4,
+      "plurinominales": 4,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 13,
+      "uninominales": 7,
+      "plurinominales": 6,
+      "especiales": 0,
+      "senadores": 4
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 4,
+      "plurinominales": 4,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 28,
+      "uninominales": 14,
+      "plurinominales": 13,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 8,
+      "uninominales": 4,
+      "plurinominales": 3,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 5,
+      "uninominales": 2,
+      "plurinominales": 2,
+      "especiales": 1,
+      "senadores": 4
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución de 2009; leyes 018 y 026; Ley 421; Ley 1266 de régimen excepcional y normas de convocatoria 2020",
+    "formula_diputados": "63 uninominales, 60 plurinominales y 7 especiales; proporcionalidad compensatoria",
+    "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+    "nota": "La elección anulada de 2019 no origina un mandato adicional"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "resultados_2020",
+      "paginas_pdf": [],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    },
+    {
+      "fuente_id": "normas_2020",
+      "paginas_pdf": [],
+      "localizador": "Constitución, Ley 026, Ley 421 y régimen excepcional"
+    }
+  ],
+  "observaciones": [],
+  "mapa": "mapas/2020_escanos.png"
+}

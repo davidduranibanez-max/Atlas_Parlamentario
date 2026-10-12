@@ -1,0 +1,18 @@
+# Archivos generados y dependencias locales
+**/node_modules/
+**/.astro/
+**/dist/
+**/__pycache__/
+*.py[cod]
+
+# Credenciales y configuración privada local
+.env
+.env.*
+!.env.example
+
+# Capturas y respaldos de verificación local
+Página web/verificacion/*.png
+Página web/verificacion/*.tar.gz
+
+# Copia preparada para el repositorio público, con su propio historial
+/Publicación GitHub/

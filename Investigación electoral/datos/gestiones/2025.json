@@ -1,0 +1,195 @@
+{
+  "id": "bo-eleccion-2025",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 2025,
+    "fecha": "2025-08-17",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "2025–2030",
+    "anio_inicio_ejercicio": 2025,
+    "anio_fin_ejercicio": 2030,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": true
+  },
+  "institucion": "Asamblea Legislativa Plurinacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 63,
+      "plurinominales": 60,
+      "especiales": 7
+    }
+  },
+  "camara_senadores": {
+    "total": 36,
+    "por_departamento": 4
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-2025-pdc",
+      "sigla": "PDC",
+      "diputados": 49,
+      "senadores": 16,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-2025-libre",
+      "sigla": "LIBRE",
+      "diputados": 39,
+      "senadores": 12,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-2025-unidad",
+      "sigla": "UNIDAD",
+      "diputados": 26,
+      "senadores": 7,
+      "color_editorial": "#298376"
+    },
+    {
+      "id": "bo-2025-ap",
+      "sigla": "AP",
+      "diputados": 8,
+      "senadores": 0,
+      "color_editorial": "#a66e12"
+    },
+    {
+      "id": "bo-2025-apb-s-mate",
+      "sigla": "APB-SÚMATE",
+      "diputados": 5,
+      "senadores": 1,
+      "color_editorial": "#755da2"
+    },
+    {
+      "id": "bo-2025-mas-ipsp",
+      "sigla": "MAS-IPSP",
+      "diputados": 2,
+      "senadores": 0,
+      "color_editorial": "#bb5934"
+    },
+    {
+      "id": "bo-2025-bia-yuqui",
+      "sigla": "BIA-YUQUI",
+      "diputados": 1,
+      "senadores": 0,
+      "color_editorial": "#567d35"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 9,
+      "uninominales": 5,
+      "plurinominales": 4,
+      "especiales": 0,
+      "senadores": 4
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 29,
+      "uninominales": 14,
+      "plurinominales": 14,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 19,
+      "uninominales": 9,
+      "plurinominales": 9,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 9,
+      "uninominales": 4,
+      "plurinominales": 4,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 13,
+      "uninominales": 7,
+      "plurinominales": 6,
+      "especiales": 0,
+      "senadores": 4
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 4,
+      "plurinominales": 4,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 29,
+      "uninominales": 14,
+      "plurinominales": 14,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 8,
+      "uninominales": 4,
+      "plurinominales": 3,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 5,
+      "uninominales": 2,
+      "plurinominales": 2,
+      "especiales": 1,
+      "senadores": 4
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución de 2009; leyes 018, 026 y 1096; Ley 1614, de 15 de enero de 2025",
+    "formula_diputados": "63 uninominales, 60 plurinominales y 7 especiales; proporcionalidad compensatoria",
+    "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+    "nota": "Santa Cruz pasa a 29 diputados y Chuquisaca a 9; la segunda vuelta presidencial no redistribuye escaños legislativos"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "resultados_2025",
+      "paginas_pdf": [
+        5,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        19,
+        21,
+        22,
+        24,
+        28,
+        30
+      ],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    },
+    {
+      "fuente_id": "ley_1614",
+      "paginas_pdf": [
+        1,
+        2
+      ],
+      "localizador": "Artículo único, distribución departamental"
+    }
+  ],
+  "observaciones": [
+    "Composición electoral de 2025, utilizada como base del período 2025–2030. No se presenta como fotografía de las bancadas efectivas del 11 de octubre de 2026."
+  ],
+  "mapa": "mapas/2025_escanos.png"
+}

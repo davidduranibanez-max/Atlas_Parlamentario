@@ -1,0 +1,183 @@
+{
+  "id": "bo-eleccion-2002",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 2002,
+    "fecha": "2002-06-30",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "2002–2006",
+    "anio_inicio_ejercicio": 2002,
+    "anio_fin_ejercicio": 2006,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": false
+  },
+  "institucion": "Congreso Nacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 68,
+      "plurinominales": 62,
+      "especiales": 0
+    }
+  },
+  "camara_senadores": {
+    "total": 27,
+    "por_departamento": 3
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-2002-mnr-mbl",
+      "sigla": "MNR-MBL",
+      "diputados": 36,
+      "senadores": 11,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-2002-mas",
+      "sigla": "MAS",
+      "diputados": 27,
+      "senadores": 8,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-2002-mir-nm-fri",
+      "sigla": "MIR-NM-FRI",
+      "diputados": 26,
+      "senadores": 5,
+      "color_editorial": "#298376"
+    },
+    {
+      "id": "bo-2002-nfr",
+      "sigla": "NFR",
+      "diputados": 25,
+      "senadores": 2,
+      "color_editorial": "#a66e12"
+    },
+    {
+      "id": "bo-2002-mip",
+      "sigla": "MIP",
+      "diputados": 6,
+      "senadores": 0,
+      "color_editorial": "#755da2"
+    },
+    {
+      "id": "bo-2002-ucs-fsb",
+      "sigla": "UCS-FSB",
+      "diputados": 5,
+      "senadores": 0,
+      "color_editorial": "#bb5934"
+    },
+    {
+      "id": "bo-2002-adn",
+      "sigla": "ADN",
+      "diputados": 4,
+      "senadores": 1,
+      "color_editorial": "#567d35"
+    },
+    {
+      "id": "bo-2002-ps",
+      "sigla": "PS",
+      "diputados": 1,
+      "senadores": 0,
+      "color_editorial": "#a3467a"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 11,
+      "uninominales": 6,
+      "plurinominales": 5,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 31,
+      "uninominales": 16,
+      "plurinominales": 15,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 18,
+      "uninominales": 9,
+      "plurinominales": 9,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 10,
+      "uninominales": 5,
+      "plurinominales": 5,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 15,
+      "uninominales": 8,
+      "plurinominales": 7,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 5,
+      "plurinominales": 4,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 22,
+      "uninominales": 11,
+      "plurinominales": 11,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 9,
+      "uninominales": 5,
+      "plurinominales": 4,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 5,
+      "uninominales": 3,
+      "plurinominales": 2,
+      "especiales": 0,
+      "senadores": 3
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución reformada; Código Electoral de 1999 (Ley 1984)",
+    "formula_diputados": "Sistema mixto con divisores naturales y compensación de las victorias uninominales",
+    "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+    "nota": "68 uninominales y 62 de lista; mandato interrumpido antes de su cierre previsto"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "atlas_1997_2002",
+      "paginas_pdf": [
+        67,
+        70
+      ],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    }
+  ],
+  "observaciones": [
+    "Las elecciones anticipadas se celebraron en diciembre de 2005; el siguiente período comenzó en enero de 2006. El año 2005 conserva como referencia en ejercicio la elección de 2002."
+  ],
+  "mapa": "mapas/2002_escanos.png"
+}

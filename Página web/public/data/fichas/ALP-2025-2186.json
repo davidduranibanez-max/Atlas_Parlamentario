@@ -1,0 +1,90 @@
+{
+  "legislador_id": "L_180c2bf19bb37a62",
+  "camara": "DIPUTADOS",
+  "nombre_completo": "Paul Ribera Aguada",
+  "nombres": null,
+  "apellidos": null,
+  "departamento": "Pando",
+  "partido_id": "P_1545e1d3bf6ed3d0",
+  "titularidad": "SUPLENTE",
+  "genero_etiqueta_portal": "Legislador",
+  "perfil_url": "https://diputados.gob.bo/diputados/paul-rivera-aguada/",
+  "foto_url": "https://diputados.gob.bo/wp-content/uploads/2025/11/130-Ribera-Aguada-Paul-PANDO-SU-1.jpg",
+  "fuente_id": "F_7d10fb61136fae84",
+  "confianza_datos": 0.75,
+  "partido_sigla": "LIBRE",
+  "partido_nombre": "LIBRE",
+  "mandatos": [
+    {
+      "mandato_id": "M_9b7e1b4f2f38fc9c",
+      "legislador_id": "L_180c2bf19bb37a62",
+      "periodo": "2025-2030",
+      "camara": "DIPUTADOS",
+      "tipo_eleccion": "Uninominal",
+      "circunscripcion": "C-62",
+      "comision": "Comisión de Educación y Salud",
+      "comite": "Comité de Salud, Deportes y Recreación",
+      "cargo": "Vocal",
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [
+    {
+      "asistencia_id": "A_d7a47ef4f292fd6c",
+      "sesion_id": "S_c40774b8ca3be097",
+      "legislador_id": "L_180c2bf19bb37a62",
+      "nombre_fuente": "Ribera Aguada Paul.",
+      "estado": "PRESENTE",
+      "modalidad": "PRESENCIAL_O_NO_INDICADA",
+      "fuente_id": "F_60023276d7820c02",
+      "pagina": 305,
+      "confianza": 1.0,
+      "fecha": "2026-02-26",
+      "numero": 59,
+      "camara": "DIPUTADOS",
+      "titulo_fuente": "59ª SESIÓN ORDINARIA LEGISLATURA 2025-2026 LA PAZ, JUEVES 26 DE FEBRERO DE 2026",
+      "fuente_url": "https://diputados.gob.bo/wp-content/uploads/2026/07/DIAGRAMACION-EL-REDACTOR-FEBRERO-S-REDACCION-HR-22381-08-06-26.pdf"
+    },
+    {
+      "asistencia_id": "A_b566618bf1906c5f",
+      "sesion_id": "S_f6ecace87485588a",
+      "legislador_id": "L_180c2bf19bb37a62",
+      "nombre_fuente": "Paul Rivera Aguada",
+      "estado": "PRESENTE",
+      "modalidad": "PRESENCIAL_O_NO_INDICADA",
+      "fuente_id": "F_c63344051eb48f90",
+      "pagina": 107,
+      "confianza": 0.944,
+      "fecha": "2025-11-06",
+      "numero": 2,
+      "camara": "DIPUTADOS",
+      "titulo_fuente": "2a Sesión Preparatoria - 06/11/25",
+      "fuente_url": "https://diputados.gob.bo/wp-content/uploads/2026/07/DIAGRAMACION-EL-REDACTOR-NOVIEMBRE-HR-22986-26-05-26.pdf"
+    }
+  ],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_7d10fb61136fae84",
+    "institucion": "CAMARA_DIPUTADOS",
+    "tipo": "PADRON",
+    "titulo": "Diputados 2025-2030",
+    "url": "https://diputados.gob.bo/diputados-home/",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": "work/cache_alp/1253ccc92d8c4eeb4df6cb22ffde25f0f93eb8314e600498a33ad852b91c8d55.html",
+    "sha256": "571b33ca69c13f4284d4b7accfc244e945982a033fef1a8594a606c1254412b7",
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": [
+    {
+      "incidencia_id": "Q_e4abcec3a295719c",
+      "entidad": "PADRON",
+      "entidad_id": "DIPUTADOS",
+      "severidad": "ALTA",
+      "codigo": "PADRON_NO_SUMA_260",
+      "descripcion": "El portal publicó 255 fichas; una nómina completa de 130 titulares y 130 suplentes sumaría 260.",
+      "fuente_id": "F_7d10fb61136fae84"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_a1717406f3f7f0d8",
+  "camara": "SENADORES",
+  "nombre_completo": "ROXANA MAMANI COLQUEHUANCA",
+  "nombres": "ROXANA",
+  "apellidos": "MAMANI COLQUEHUANCA",
+  "departamento": "La Paz",
+  "partido_id": "P_ae996a2b809b71c7",
+  "titularidad": "SUPLENTE",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/114",
+  "foto_url": "https://apisi.senado.gob.bo/images/a12c6849-b909-403a-83d6-3b4f864116b7_1772121002.png",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "PDC",
+  "partido_nombre": "Partido Demócrata Cristiano",
+  "mandatos": [
+    {
+      "mandato_id": "M_1bae9ef167b2113d",
+      "legislador_id": "L_a1717406f3f7f0d8",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

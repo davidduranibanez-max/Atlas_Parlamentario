@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_f857748c8f831c22",
+  "camara": "SENADORES",
+  "nombre_completo": "SICHARD HANS SORAIDE CASTEDO",
+  "nombres": "SICHARD HANS",
+  "apellidos": "SORAIDE CASTEDO",
+  "departamento": "Pando",
+  "partido_id": "P_61cae1aa064423c1",
+  "titularidad": "SUPLENTE",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/133",
+  "foto_url": "https://apisi.senado.gob.bo/images/a12c7f89-7d51-4ab9-a450-702eb049b3dd_1772124903.png",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "UNIDAD",
+  "partido_nombre": "ALIANZA UNIDAD",
+  "mandatos": [
+    {
+      "mandato_id": "M_ba30afc6c028f248",
+      "legislador_id": "L_f857748c8f831c22",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

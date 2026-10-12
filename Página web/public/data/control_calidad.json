@@ -1,0 +1,259 @@
+{
+  "gestiones": [
+    {
+      "id": "bo-eleccion-1980",
+      "legislatura": "1982-1985",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 156,
+      "incidencias": 1,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-1985",
+      "legislatura": "1985-1989",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 157,
+      "incidencias": 0,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-1989",
+      "legislatura": "1989-1993",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 157,
+      "incidencias": 0,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-1993",
+      "legislatura": "1993-1997",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 157,
+      "incidencias": 0,
+      "diferencias_reparto": [
+        {
+          "camara": "Diputados",
+          "nomina": {
+            "MNR-MRTKL": 50,
+            "AP": 35,
+            "MBL": 7,
+            "UCS": 20,
+            "CONDEPA": 13,
+            "EJE": 1,
+            "MN": 1,
+            "ARBOL": 1,
+            "MNR": 1,
+            "ASD": 1
+          },
+          "asignacion_electoral": {
+            "MNR-MRTKL": 52,
+            "AP": 35,
+            "UCS": 20,
+            "CONDEPA": 13,
+            "MBL": 7,
+            "ARBOL": 1,
+            "ASD": 1,
+            "EJE": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "bo-eleccion-1997",
+      "legislatura": "1997-2002",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 156,
+      "incidencias": 1,
+      "diferencias_reparto": [
+        {
+          "camara": "Diputados",
+          "nomina": {
+            "MP": 1,
+            "MIR-NM": 22,
+            "MRTKL": 7,
+            "UCS": 21,
+            "ADN-NFR-PDC": 18,
+            "MBL": 5,
+            "PDC": 11,
+            "CONDEPA-MP": 18,
+            "MNR-MRTKL": 19,
+            "IU": 4,
+            "Sin bancada consignada": 1,
+            "NFR-PDC": 3
+          },
+          "asignacion_electoral": {
+            "ADN-NFR-PDC": 32,
+            "MNR-MRTKL": 26,
+            "MIR-NM": 23,
+            "UCS": 21,
+            "CONDEPA-MP": 19,
+            "MBL": 5,
+            "IU": 4
+          }
+        },
+        {
+          "camara": "Senadores",
+          "nomina": {
+            "ADN-NFR-PDC": 7,
+            "MIR-NM": 7,
+            "CONDEPA-MP": 3,
+            "MRTKL": 2,
+            "MNR-MRTKL": 2,
+            "UCS": 2,
+            "NFR-PDC": 2,
+            "PDC": 2
+          },
+          "asignacion_electoral": {
+            "ADN-NFR-PDC": 11,
+            "MNR-MRTKL": 4,
+            "MIR-NM": 7,
+            "UCS": 2,
+            "CONDEPA-MP": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "bo-eleccion-2002",
+      "legislatura": "2002-2006",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 156,
+      "incidencias": 1,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-2005",
+      "legislatura": "2006-2010",
+      "registros": 157,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 27
+      },
+      "personas_con_nombre": 157,
+      "incidencias": 0,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-2009",
+      "legislatura": "2010-2015",
+      "registros": 332,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 36
+      },
+      "personas_con_nombre": 328,
+      "incidencias": 4,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-2014",
+      "legislatura": "2015-2020",
+      "registros": 166,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 36
+      },
+      "personas_con_nombre": 166,
+      "incidencias": 0,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-2020",
+      "legislatura": "2020-2025",
+      "registros": 332,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 36
+      },
+      "personas_con_nombre": 331,
+      "incidencias": 1,
+      "diferencias_reparto": []
+    },
+    {
+      "id": "bo-eleccion-2025",
+      "legislatura": "2025-2030",
+      "registros": 332,
+      "titulares": {
+        "Diputados": 130,
+        "Senadores": 36
+      },
+      "personas_con_nombre": 325,
+      "incidencias": 7,
+      "diferencias_reparto": [
+        {
+          "camara": "Diputados",
+          "nomina": {
+            "AP": 7,
+            "LIBRE": 39,
+            "PDC": 47,
+            "UNIDAD": 26,
+            "Sin bancada consignada": 3,
+            "APB-SÚMATE": 5,
+            "MAS-IPSP": 2,
+            "BIA-YUQUI": 1
+          },
+          "asignacion_electoral": {
+            "PDC": 49,
+            "LIBRE": 39,
+            "UNIDAD": 26,
+            "AP": 8,
+            "APB-SÚMATE": 5,
+            "MAS-IPSP": 2,
+            "BIA-YUQUI": 1
+          }
+        }
+      ]
+    }
+  ],
+  "origen": "/mnt/e/Exsecutor000/Bases de datos/Asamblea Legislativa",
+  "hashes_sha256": {
+    "ALP 2025_2030/alp_2025_2030.sqlite": "1ba8602a0e0a8dcc9b99ecd1d66e89e9b60e75e6b65f25a5480b4be4537dc169",
+    "parlamentarios_1982_1985.csv": "0ddbdbc91c63efcbf3300fc8ac28554634439c490662b8d8e97dd0aacecab3b5",
+    "parlamentarios_1985_1989.csv": "008f06b593359bdf15c2209650361c3d79c6d2a739f6e20ab9a6daa3f1363b8e",
+    "parlamentarios_1989_1993.csv": "332bd4b209e2e1b7cc768382fbec5563b29dec660cdfae9e2448d7838d62346d",
+    "parlamentarios_1993_1997.csv": "5f0129ecfac238fc247525d6111222482a18f0b4709c99c9ee41d0bb8c7adc3c",
+    "parlamentarios_1997_2002.csv": "8487985cb4abe0314f442d262cbc525c4f10b25ffb6ca89e60dc600d15f43d33",
+    "parlamentarios_2002_2006.csv": "0a7332b392d02b300e4793ec5e921a60242833e73d1469e1d641ac30a3acf086",
+    "parlamentarios_2006_2010.csv": "dd7a957f82d6550621d48c89b7963026ff11161ab8f55df6fc6e43b91c7814f7",
+    "parlamentarios_2010_2015.csv": "5ae24b91a7a171ef8b68a9e901957faf3870260fc3ac6e6975bfeff2fc3dc826",
+    "parlamentarios_2015_2020.csv": "1f42fe90914020e324767c1582d0eafa5dbaeb79ffbebb8e2b6db09be0eed1f7",
+    "parlamentarios_2020_2025.csv": "074f8cd0254e6da307ca837d1830f2840bac42f980afffc9f387d3389c96ac8f",
+    "parlamentarios_2025_2030.csv": "c40e84cc8b107b245a4dc533e56f4f6490de6db40099b9773a1e485a0781b2a1",
+    "fuentes.csv": "8256ce982ec52f2d8813418a4b50d24993e3afd94a194ae2521b3dac3a50310a",
+    "control_calidad.csv": "11c76245ed829fc200007c0761e811b5eb48bceb0175b53e3b358affe75ebbc8",
+    "incidencias.csv": "2e88b24a7eb01e617b3de302bab1a3a79983090f844e268d4e19a8ce9e3f648d"
+  },
+  "snapshot_portal": {
+    "snapshot_utc": "2026-09-16T01:23:38+00:00",
+    "periodo_constitucional": "2025-2030",
+    "legislatura_observada": "2025-2026",
+    "inicio_periodo": "2025-11-04",
+    "politica_votos": "No inferir votos individuales desde resultados agregados"
+  },
+  "enriquecimientos_portal": 310,
+  "criterio": "Nóminas por legislatura como origen; consolidado no utilizado porque puede diferir de archivos actualizados. Conserva todas las filas y siglas originales. No reconstruye cambios de bancada año a año."
+}

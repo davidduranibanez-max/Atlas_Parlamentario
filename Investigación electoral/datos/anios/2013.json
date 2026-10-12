@@ -1,0 +1,15 @@
+{
+  "anio": 2013,
+  "fecha_referencia": "2013-12-31",
+  "pais": "Bolivia",
+  "gestiones_en_el_anio": [
+    "bo-eleccion-2009"
+  ],
+  "gestion_referencia_id": "bo-eleccion-2009",
+  "eleccion_origen": 2009,
+  "composicion_mostrada": "asignacion_electoral_de_origen",
+  "snapshot_efectivo": null,
+  "estado_snapshot": "no_reconstruido",
+  "archivo_gestion": "../gestiones/2009.json",
+  "nota": "Referencia de fin de año (en 2026, fecha de corte). Los extremos anuales son aproximados; no usar para resolver una fecha exacta de transición. La asignación de origen no prueba la adscripción efectiva de cada año."
+}

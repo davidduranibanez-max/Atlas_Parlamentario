@@ -1,0 +1,92 @@
+{
+  "legislador_id": "L_0fa14fe3e582267b",
+  "camara": "DIPUTADOS",
+  "nombre_completo": "Pablo Ernesto Ávila Quaino",
+  "nombres": null,
+  "apellidos": null,
+  "departamento": "Beni",
+  "partido_id": "P_0068902c7eb1d3a0",
+  "titularidad": "TITULAR",
+  "genero_etiqueta_portal": "Legislador",
+  "perfil_url": "https://diputados.gob.bo/diputados/pablo-ernesto-avila-quaino/",
+  "foto_url": "https://diputados.gob.bo/wp-content/uploads/2025/11/118-5x7-Avila-Quaino-Pablo-Ernesto-BENI-TI.jpg",
+  "fuente_id": "F_7d10fb61136fae84",
+  "confianza_datos": 0.75,
+  "partido_sigla": "UNIDAD",
+  "partido_nombre": "UNIDAD",
+  "mandatos": [
+    {
+      "mandato_id": "M_5081ad8a97dbb73c",
+      "legislador_id": "L_0fa14fe3e582267b",
+      "periodo": "2025-2030",
+      "camara": "DIPUTADOS",
+      "tipo_eleccion": "Uninominal",
+      "circunscripcion": "C-58",
+      "comision": "Comisión de Economía Plural, Producción e Industria",
+      "comite": "Comité de Agricultura y Ganadería",
+      "cargo": "Vocal",
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [
+    {
+      "voto_individual_id": "VI_a6b6d9c51f9a8883",
+      "votacion_id": "V_613840fee7458459",
+      "legislador_id": "L_0fa14fe3e582267b",
+      "nombre_fuente": "AVILA QUAINO PABLO ERNESTO",
+      "voto": "SI",
+      "fuente_id": "F_c63344051eb48f90",
+      "pagina": 60,
+      "extracto": "DIP . AVILA QUAINO PABLO ERNESTO: Aprobado, señor Presidente.",
+      "confianza": 1.0,
+      "descripcion": "Elección nominal de la Directiva: bloque de mayoría",
+      "resultado": "APROBADO",
+      "requiere_revision": 1,
+      "fecha": "2025-11-06",
+      "numero": 1,
+      "fuente_url": "https://diputados.gob.bo/wp-content/uploads/2026/07/DIAGRAMACION-EL-REDACTOR-NOVIEMBRE-HR-22986-26-05-26.pdf"
+    },
+    {
+      "voto_individual_id": "VI_becf2cc24fbcdd3e",
+      "votacion_id": "V_187e487967eae412",
+      "legislador_id": "L_0fa14fe3e582267b",
+      "nombre_fuente": "AVILA QUAINO PABLO ERNESTO",
+      "voto": "SI",
+      "fuente_id": "F_c63344051eb48f90",
+      "pagina": 72,
+      "extracto": "DIP . AVILA QUAINO PABLO ERNESTO: Aprobado, señor Presidente.",
+      "confianza": 1.0,
+      "descripcion": "Elección nominal de la Directiva: bloque de minoría",
+      "resultado": "APROBADO",
+      "requiere_revision": 0,
+      "fecha": "2025-11-06",
+      "numero": 1,
+      "fuente_url": "https://diputados.gob.bo/wp-content/uploads/2026/07/DIAGRAMACION-EL-REDACTOR-NOVIEMBRE-HR-22986-26-05-26.pdf"
+    }
+  ],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_7d10fb61136fae84",
+    "institucion": "CAMARA_DIPUTADOS",
+    "tipo": "PADRON",
+    "titulo": "Diputados 2025-2030",
+    "url": "https://diputados.gob.bo/diputados-home/",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": "work/cache_alp/1253ccc92d8c4eeb4df6cb22ffde25f0f93eb8314e600498a33ad852b91c8d55.html",
+    "sha256": "571b33ca69c13f4284d4b7accfc244e945982a033fef1a8594a606c1254412b7",
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": [
+    {
+      "incidencia_id": "Q_e4abcec3a295719c",
+      "entidad": "PADRON",
+      "entidad_id": "DIPUTADOS",
+      "severidad": "ALTA",
+      "codigo": "PADRON_NO_SUMA_260",
+      "descripcion": "El portal publicó 255 fichas; una nómina completa de 130 titulares y 130 suplentes sumaría 260.",
+      "fuente_id": "F_7d10fb61136fae84"
+    }
+  ]
+}

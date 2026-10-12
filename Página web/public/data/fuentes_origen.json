@@ -1,0 +1,65 @@
+[
+  {
+    "fuente_id": "OEP_ATLAS_I",
+    "titulo": "Atlas Electoral de Bolivia, tomo I",
+    "url": "https://web.oep.org.bo/informacion-publica/atlas-electoral-de-bolivia-tomo-i/",
+    "cobertura": "Elecciones 1980-2005",
+    "nota": "Tablas de parlamentarios titulares"
+  },
+  {
+    "fuente_id": "OEP_2009",
+    "titulo": "Candidatos electos 2009",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/03/candidatos_electos_2009.pdf",
+    "cobertura": "Elección 2009",
+    "nota": "Titulares, suplentes y CI publicados por el OEP"
+  },
+  {
+    "fuente_id": "OEP_ATLAS_IV",
+    "titulo": "Atlas Electoral de Bolivia, tomo IV",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_Tomo_IV.pdf",
+    "cobertura": "Elección 2014",
+    "nota": "Tablas 14 y 15 de electos titulares"
+  },
+  {
+    "fuente_id": "OEP_2014_ACTA",
+    "titulo": "Acta de cómputo nacional 2014",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2017/01/acta_de_computo_nacional_2014.pdf",
+    "cobertura": "Elección 2014",
+    "nota": "Recupera una fila omitida en el cuadro resumido del Atlas"
+  },
+  {
+    "fuente_id": "OEP_2020",
+    "titulo": "Separata de resultados EG 2020",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2020/10/Separata_Resultados_EG_2020.pdf",
+    "cobertura": "Elección 2020",
+    "nota": "Titulares y suplentes; una celda no consignada"
+  },
+  {
+    "fuente_id": "OEP_2020_CC",
+    "titulo": "Candidaturas habilitadas CC 2020",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2020/10/Candidaturas_Habilitadas_CC_17_10_20.pdf",
+    "cobertura": "Elección 2020",
+    "nota": "Auxiliar para una celda partida"
+  },
+  {
+    "fuente_id": "OEP_2020_MAS",
+    "titulo": "Candidaturas habilitadas MAS-IPSP 2020",
+    "url": "https://web.oep.org.bo/wp-content/uploads/2020/10/Candidaturas_Habilitadas_MAS-IPSP_17_10_20.pdf",
+    "cobertura": "Elección 2020",
+    "nota": "Auxiliar para dos celdas partidas"
+  },
+  {
+    "fuente_id": "OEP_2025",
+    "titulo": "Asambleístas elegidos EG 2025",
+    "url": "https://web.oep.org.bo/elecciones-generales-2025/asambleistas-elegidos/",
+    "cobertura": "Elección 2025",
+    "nota": "Lista oficial XLSX convertida a CSV"
+  },
+  {
+    "fuente_id": "BIVICA_DICC",
+    "titulo": "Diccionario biográfico de parlamentarios 1979-2019",
+    "url": "https://bivica.org/file/view/id/2781",
+    "cobertura": "Contraste 1979-2019",
+    "nota": "Fuente secundaria de apoyo; no sustituye tablas del OEP"
+  }
+]

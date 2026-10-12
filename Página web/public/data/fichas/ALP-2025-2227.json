@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_db0a689f6dac2a53",
+  "camara": "SENADORES",
+  "nombre_completo": "BERTHA NURMY GUTIERREZ MENESES",
+  "nombres": "BERTHA NURMY",
+  "apellidos": "GUTIERREZ MENESES",
+  "departamento": "Potosí",
+  "partido_id": "P_ae996a2b809b71c7",
+  "titularidad": "TITULAR",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/92",
+  "foto_url": "https://apisi.senado.gob.bo/images/a2884972-7251-4a1f-a1f4-ff33f2565f76_1787062314.png",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "PDC",
+  "partido_nombre": "Partido Demócrata Cristiano",
+  "mandatos": [
+    {
+      "mandato_id": "M_9d0c8d62a1b9fc63",
+      "legislador_id": "L_db0a689f6dac2a53",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

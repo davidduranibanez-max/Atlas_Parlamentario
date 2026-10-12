@@ -1,0 +1,230 @@
+{
+  "resultado": "correcto",
+  "fecha": "2026-10-11T22:17:07.956Z",
+  "checks": [
+    "La apertura inicial no descarga la actividad de las fichas",
+    "Directorio y ficha comienzan plegados y se despliegan por separado",
+    "Los hemiciclos mantienen una sola columna, uno debajo del otro",
+    "Inicio directo en filtros; portada retirada; 166 escaños de 2025",
+    "Línea de sucesos políticos e hitos vacía; selector preparado sin otras líneas inventadas",
+    "Contador y limpieza integrados en una barra compacta",
+    "En escritorio la ficha permanece a la derecha del hemiciclo",
+    "Selección de escaño y ficha con todos los campos originales",
+    "Descarga completa incluye los datos adicionales cuando existen",
+    "Los sectores completos de directorio y ficha se pliegan y despliegan",
+    "Las bancadas se despliegan individualmente",
+    "Filtro combinado por departamento",
+    "Filtro por bancada conserva el conteo de la base, separado del reparto oficial",
+    "Cámara y bancada combinadas",
+    "Suplentes en el directorio sin duplicar curules",
+    "Búsqueda sin resultados",
+    "Congreso restituido en 1982; 157 escaños e incidencias conservadas",
+    "Búsqueda histórica sin tildes",
+    "Los 45 años cargan hemiciclos, normativa y distribución territorial; plantillas históricas y traslado de 2021 correctos",
+    "Plantillas antiguas de ambas cámaras responden y permiten seleccionar representantes a 320, 390, 768 y 1440 px",
+    "Tema oscuro persiste y vuelve al claro",
+    "Móvil sin desbordamiento y selección abre la ficha",
+    "Cierre de ficha móvil",
+    "16 tamaños entre 320 y 2560 px y orientación horizontal: sin desbordamiento; cabecera y ficha compactas",
+    "Astro entrega los 166 escaños en HTML antes de ejecutar JavaScript",
+    "Sin errores JavaScript ni recursos estáticos fallidos"
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "height": 740,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 294.390625
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "viewport": 360,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 331.1875
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 345
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 358.796875
+    },
+    {
+      "width": 414,
+      "height": 896,
+      "scrollWidth": 414,
+      "viewport": 414,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 380.875
+    },
+    {
+      "width": 480,
+      "height": 800,
+      "scrollWidth": 480,
+      "viewport": 480,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 441.59375
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "scrollWidth": 600,
+      "viewport": 600,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 552
+    },
+    {
+      "width": 760,
+      "height": 1024,
+      "scrollWidth": 760,
+      "viewport": 760,
+      "headerHeight": 44,
+      "panelHeight": 675.4375,
+      "panelWidth": 699.1875
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 280
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "viewport": 820,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 283.234375
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 355.421875
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 350.1875
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 394.875
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 405.5625
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "viewport": 2560,
+      "headerHeight": 47.140625,
+      "panelHeight": 607.4375,
+      "panelWidth": 405.5625
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "viewport": 844,
+      "headerHeight": 47.140625,
+      "panelHeight": 320,
+      "panelWidth": 291.71875
+    }
+  ],
+  "initialPerformance": {
+    "readyMs": 607,
+    "resources": [
+      {
+        "url": "/_astro/index.jiBTb_LL.css",
+        "bytes": 26990,
+        "durationMs": 13.800000011920929
+      },
+      {
+        "url": "/assets/template/plano-diputados.svg",
+        "bytes": 15726,
+        "durationMs": 34.599999994039536
+      },
+      {
+        "url": "/assets/template/plano-senadores.svg",
+        "bytes": 5477,
+        "durationMs": 44.20000000298023
+      },
+      {
+        "url": "/_astro/index.astro_astro_type_script_index_0_lang.DcmDpD6k.js",
+        "bytes": 31813,
+        "durationMs": 24.200000002980232
+      },
+      {
+        "url": "/data/manifest.json",
+        "bytes": 34928,
+        "durationMs": 11.199999988079071
+      },
+      {
+        "url": "/data/lineas_tiempo.json",
+        "bytes": 140,
+        "durationMs": 21.200000002980232
+      },
+      {
+        "url": "/assets/template/favicon.svg",
+        "bytes": 712,
+        "durationMs": 28.599999994039536
+      },
+      {
+        "url": "/data/gestiones/bo-eleccion-2025.json",
+        "bytes": 271141,
+        "durationMs": 19.700000002980232
+      },
+      {
+        "url": "/assets/template/favicon.svg",
+        "bytes": 712,
+        "durationMs": 10.799999997019768
+      }
+    ]
+  },
+  "errors": [],
+  "failed": []
+}

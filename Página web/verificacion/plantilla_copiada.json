@@ -1,0 +1,27 @@
+[
+  {
+    "original": "/mnt/d/Codex trabajo/Asamblea Legislativa/web/src/styles/theme.css",
+    "copia": "assets/template/theme.css",
+    "sha256": "821a4e530db7eed1186a8a9d6a174d9642223fb5614d8c91574c9943bf7e88dc"
+  },
+  {
+    "original": "/mnt/d/Codex trabajo/Asamblea Legislativa/web/src/styles/legacy.css",
+    "copia": "assets/template/legacy.css",
+    "sha256": "8420ff28a7e47fb6a96e436aa738541ece2ac47a427461cfe66b9a280394c6f9"
+  },
+  {
+    "original": "/mnt/d/Codex trabajo/Asamblea Legislativa/web/public/plano-diputados.svg",
+    "copia": "assets/template/plano-diputados.svg",
+    "sha256": "b451138ec60bf98baac0f4415545332255d8215969c70730a4ded4a8f2c76b09"
+  },
+  {
+    "original": "/mnt/d/Codex trabajo/Asamblea Legislativa/web/public/plano-senadores.svg",
+    "copia": "assets/template/plano-senadores.svg",
+    "sha256": "d353b89307ff027e2390842767abd887161ac54d949185d5cae0c47b94f0adc2"
+  },
+  {
+    "original": "/mnt/d/Codex trabajo/Asamblea Legislativa/web/public/favicon.svg",
+    "copia": "assets/template/favicon.svg",
+    "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "id": "bo-eleccion-1985",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 1985,
+    "fecha": "1985-07-14",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "1985–1989",
+    "anio_inicio_ejercicio": 1985,
+    "anio_fin_ejercicio": 1989,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": false
+  },
+  "institucion": "Congreso Nacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 0,
+      "plurinominales": 130,
+      "especiales": 0
+    }
+  },
+  "camara_senadores": {
+    "total": 27,
+    "por_departamento": 3
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-1985-mnr",
+      "sigla": "MNR",
+      "diputados": 43,
+      "senadores": 16,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-1985-adn",
+      "sigla": "ADN",
+      "diputados": 41,
+      "senadores": 10,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-1985-mir",
+      "sigla": "MIR",
+      "diputados": 15,
+      "senadores": 1,
+      "color_editorial": "#298376"
+    },
+    {
+      "id": "bo-1985-mnri",
+      "sigla": "MNRI",
+      "diputados": 8,
+      "senadores": 0,
+      "color_editorial": "#a66e12"
+    },
+    {
+      "id": "bo-1985-mnrv",
+      "sigla": "MNRV",
+      "diputados": 6,
+      "senadores": 0,
+      "color_editorial": "#755da2"
+    },
+    {
+      "id": "bo-1985-ps-1",
+      "sigla": "PS-1",
+      "diputados": 5,
+      "senadores": 0,
+      "color_editorial": "#bb5934"
+    },
+    {
+      "id": "bo-1985-fpu",
+      "sigla": "FPU",
+      "diputados": 4,
+      "senadores": 0,
+      "color_editorial": "#567d35"
+    },
+    {
+      "id": "bo-1985-fsb",
+      "sigla": "FSB",
+      "diputados": 3,
+      "senadores": 0,
+      "color_editorial": "#a3467a"
+    },
+    {
+      "id": "bo-1985-pdc",
+      "sigla": "PDC",
+      "diputados": 3,
+      "senadores": 0,
+      "color_editorial": "#476d8e"
+    },
+    {
+      "id": "bo-1985-mrtkl",
+      "sigla": "MRTKL",
+      "diputados": 2,
+      "senadores": 0,
+      "color_editorial": "#767676"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 13,
+      "uninominales": 0,
+      "plurinominales": 13,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 28,
+      "uninominales": 0,
+      "plurinominales": 28,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 18,
+      "uninominales": 0,
+      "plurinominales": 18,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 10,
+      "uninominales": 0,
+      "plurinominales": 10,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 19,
+      "uninominales": 0,
+      "plurinominales": 19,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 0,
+      "plurinominales": 9,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 17,
+      "uninominales": 0,
+      "plurinominales": 17,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 9,
+      "uninominales": 0,
+      "plurinominales": 9,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 7,
+      "uninominales": 0,
+      "plurinominales": 7,
+      "especiales": 0,
+      "senadores": 3
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución de 1967; Ley 531 (1980); convocatoria adelantada mediante Ley 679, de 14 de diciembre de 1984",
+    "formula_diputados": "Cociente simple y residuos mayores",
+    "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+    "nota": "Listas departamentales; un voto vincula los cargos"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "atlas_1980_1993",
+      "paginas_pdf": [
+        53,
+        56
+      ],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    }
+  ],
+  "observaciones": [],
+  "mapa": "mapas/1985_escanos.png"
+}

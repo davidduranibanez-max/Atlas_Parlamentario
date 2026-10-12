@@ -1,0 +1,2023 @@
+{
+  "version_esquema": "1.0",
+  "fecha_corte_investigacion": "2026-10-11",
+  "cobertura_anios": [
+    1982,
+    2026
+  ],
+  "alcance": "Metadatos nacionales y distribución departamental de escaños; composición electoral de origen",
+  "no_incluye": [
+    "nómina individual de legisladores",
+    "votaciones legislativas",
+    "cambios anuales de adscripción no documentados",
+    "geometrías electorales históricas"
+  ],
+  "fuentes": {
+    "atlas_1980_1993": {
+      "titulo": "Atlas Electoral de Bolivia, tomo I, capítulos I y II",
+      "institucion": "CNE / OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2017/03/Atlas_Electoral_tomo-I_Cap_I-II.pdf",
+      "archivo": "fuentes/atlas_I_II.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "1c9431acc58124896dc88827ca4ddec72e8d9dd2a9cd69de535ea737d6950dd5"
+    },
+    "atlas_1997_2002": {
+      "titulo": "Atlas Electoral de Bolivia, tomo I, capítulo III, parte 1",
+      "institucion": "CNE / OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_tomo-I_Cap_III-1.pdf",
+      "archivo": "fuentes/atlas_III_1.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "7d8a1229c4875a380a309c594df91416b89b38b34bdd29df66d6b6210a8831c6"
+    },
+    "atlas_2005": {
+      "titulo": "Atlas Electoral de Bolivia, tomo I, capítulo III, parte 2",
+      "institucion": "CNE / OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_tomo-I_Cap_III-2.pdf",
+      "archivo": "fuentes/atlas_III_2.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "d3ce060d9f399854546e9b8703a2d7a20c1efa38d7bdcedbca2bb47edc320f50"
+    },
+    "atlas_2009": {
+      "titulo": "Atlas Electoral de Bolivia, tomo I, capítulo IV",
+      "institucion": "CNE / OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2017/03/Atlas_Electoral_tomo-I_Cap_IV.pdf",
+      "archivo": "fuentes/atlas_I_cap_IV.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "2d6b6135fbad2fb179a2b2ed930905d8293208af2b13fd47307cad8a8b2b250c"
+    },
+    "atlas_2014": {
+      "titulo": "Atlas Electoral de Bolivia, tomo IV, elecciones generales 2014",
+      "institucion": "OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2017/04/Atlas_Electoral_Tomo_IV.pdf",
+      "archivo": "fuentes/atlas_IV.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "6788363d190934ed298caac729fe2c30db7372a7b16f7faab5ac075af64433c3"
+    },
+    "resultados_2020": {
+      "titulo": "TSE entrega credenciales a autoridades electas en comicios generales",
+      "institucion": "OEP / Fuente Directa",
+      "url": "https://fuentedirecta.oep.org.bo/noticia/tse-entrega-credenciales-a-autoridades-electas-en-comicios-generales/",
+      "fecha_publicacion": "2020-10-27",
+      "fecha_consulta": "2026-10-11"
+    },
+    "normas_2020": {
+      "titulo": "Compendio normativo, elecciones generales 2020",
+      "institucion": "OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2020/10/Compendio_EG_2020.pdf",
+      "archivo": "fuentes/compendio_2020.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "94514ab1430ff637daa9d99dce5f965abc3c3722745ed0b13f8f6a0610d9e292"
+    },
+    "resultados_2025": {
+      "titulo": "Publicación de resultados y asignación de escaños, elecciones generales 2025",
+      "institucion": "OEP / TSE",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2025/08/30-08-2025-Separata-resultados-EG2025.pdf",
+      "archivo": "fuentes/resultados_2025.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "5c7a2be0e3eefa53294bc0b7b62d68ac3330b1066a9aba87988221e9babd2439"
+    },
+    "normas_2025": {
+      "titulo": "Compendio normativo, elecciones generales 2025",
+      "institucion": "OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2025/09/Compendio-EG-2025.pdf",
+      "archivo": "fuentes/compendio_2025.pdf",
+      "fecha_consulta": "2026-10-11",
+      "sha256": "88ccf2990e15edee50fdbde988a60ab1cf011a7e6237fafd28e1aee7a445ec85"
+    },
+    "ley_1614": {
+      "titulo": "Ley 1614 de 15 de enero de 2025, distribución de escaños",
+      "institucion": "Asamblea Legislativa Plurinacional / Senado",
+      "url": "https://apisi.senado.gob.bo/images/9ef926b3-c1ea-4783-9a84-8bae10d65ee9_1747929333.pdf",
+      "fecha_consulta": "2026-10-11"
+    },
+    "reparto_2025": {
+      "titulo": "Con la promulgación de la Ley de Escaños el TSE inicia los ajustes en la cartografía electoral",
+      "institucion": "OEP / Fuente Directa",
+      "url": "https://fuentedirecta.oep.org.bo/noticia/con-la-promulgacion-de-la-ley-de-escanos-el-tse-inicia-los-ajustes-en-la-cartografia-electoral/",
+      "fecha_consulta": "2026-10-11"
+    },
+    "prorroga_2020": {
+      "titulo": "Informes de observación electoral, elecciones generales 2020",
+      "institucion": "Misiones de observación / repositorio OEP",
+      "url": "https://web.oep.org.bo/wp-content/uploads/2021/03/Informes_Observadores_EG_2020.pdf",
+      "fecha_consulta": "2026-10-11"
+    }
+  },
+  "gestiones": [
+    {
+      "id": "bo-eleccion-1980",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 1980,
+        "fecha": "1980-06-29",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "1982–1985",
+        "anio_inicio_ejercicio": 1982,
+        "anio_fin_ejercicio": 1985,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 0,
+          "plurinominales": 130,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-1980-udp",
+          "sigla": "UDP",
+          "diputados": 47,
+          "senadores": 10,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-1980-mnr",
+          "sigla": "MNR",
+          "diputados": 34,
+          "senadores": 10,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-1980-adn",
+          "sigla": "ADN",
+          "diputados": 24,
+          "senadores": 6,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-1980-ps-1",
+          "sigla": "PS-1",
+          "diputados": 10,
+          "senadores": 1,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-1980-fdr",
+          "sigla": "FDR",
+          "diputados": 5,
+          "senadores": 0,
+          "color_editorial": "#755da2"
+        },
+        {
+          "id": "bo-1980-fsb",
+          "sigla": "FSB",
+          "diputados": 3,
+          "senadores": 0,
+          "color_editorial": "#bb5934"
+        },
+        {
+          "id": "bo-1980-pra",
+          "sigla": "PRA",
+          "diputados": 3,
+          "senadores": 0,
+          "color_editorial": "#567d35"
+        },
+        {
+          "id": "bo-1980-mnru",
+          "sigla": "MNRU",
+          "diputados": 2,
+          "senadores": 0,
+          "color_editorial": "#a3467a"
+        },
+        {
+          "id": "bo-1980-mitka",
+          "sigla": "MITKA",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#476d8e"
+        },
+        {
+          "id": "bo-1980-mitka-1",
+          "sigla": "MITKA-1",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#767676"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 13,
+          "uninominales": 0,
+          "plurinominales": 13,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 28,
+          "uninominales": 0,
+          "plurinominales": 28,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 18,
+          "uninominales": 0,
+          "plurinominales": 18,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 10,
+          "uninominales": 0,
+          "plurinominales": 10,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 19,
+          "uninominales": 0,
+          "plurinominales": 19,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 17,
+          "uninominales": 0,
+          "plurinominales": 17,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 7,
+          "uninominales": 0,
+          "plurinominales": 7,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 1967; Ley Electoral 531, de 8 de abril de 1980",
+        "formula_diputados": "Cociente simple y residuos mayores en listas departamentales",
+        "formula_senadores": "Dos senadores para la primera mayoría y uno para la segunda por departamento",
+        "nota": "Sin circunscripciones uninominales; un voto vincula los cargos"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_1980_1993",
+          "paginas_pdf": [
+            37,
+            38,
+            40
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [
+        "Parlamento elegido en 1980 y restituido en octubre de 1982. La tabla representa la asignación electoral, no una auditoría nominal de los integrantes vivos, sustituciones o escisiones al momento de la restitución. El Atlas sitúa la reunión parlamentaria el 6 de octubre de 1982; el Ejecutivo asumió el 10 de octubre."
+      ],
+      "mapa": "mapas/1980_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-1985",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 1985,
+        "fecha": "1985-07-14",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "1985–1989",
+        "anio_inicio_ejercicio": 1985,
+        "anio_fin_ejercicio": 1989,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 0,
+          "plurinominales": 130,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-1985-mnr",
+          "sigla": "MNR",
+          "diputados": 43,
+          "senadores": 16,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-1985-adn",
+          "sigla": "ADN",
+          "diputados": 41,
+          "senadores": 10,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-1985-mir",
+          "sigla": "MIR",
+          "diputados": 15,
+          "senadores": 1,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-1985-mnri",
+          "sigla": "MNRI",
+          "diputados": 8,
+          "senadores": 0,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-1985-mnrv",
+          "sigla": "MNRV",
+          "diputados": 6,
+          "senadores": 0,
+          "color_editorial": "#755da2"
+        },
+        {
+          "id": "bo-1985-ps-1",
+          "sigla": "PS-1",
+          "diputados": 5,
+          "senadores": 0,
+          "color_editorial": "#bb5934"
+        },
+        {
+          "id": "bo-1985-fpu",
+          "sigla": "FPU",
+          "diputados": 4,
+          "senadores": 0,
+          "color_editorial": "#567d35"
+        },
+        {
+          "id": "bo-1985-fsb",
+          "sigla": "FSB",
+          "diputados": 3,
+          "senadores": 0,
+          "color_editorial": "#a3467a"
+        },
+        {
+          "id": "bo-1985-pdc",
+          "sigla": "PDC",
+          "diputados": 3,
+          "senadores": 0,
+          "color_editorial": "#476d8e"
+        },
+        {
+          "id": "bo-1985-mrtkl",
+          "sigla": "MRTKL",
+          "diputados": 2,
+          "senadores": 0,
+          "color_editorial": "#767676"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 13,
+          "uninominales": 0,
+          "plurinominales": 13,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 28,
+          "uninominales": 0,
+          "plurinominales": 28,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 18,
+          "uninominales": 0,
+          "plurinominales": 18,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 10,
+          "uninominales": 0,
+          "plurinominales": 10,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 19,
+          "uninominales": 0,
+          "plurinominales": 19,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 17,
+          "uninominales": 0,
+          "plurinominales": 17,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 7,
+          "uninominales": 0,
+          "plurinominales": 7,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 1967; Ley 531 (1980); convocatoria adelantada mediante Ley 679, de 14 de diciembre de 1984",
+        "formula_diputados": "Cociente simple y residuos mayores",
+        "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+        "nota": "Listas departamentales; un voto vincula los cargos"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_1980_1993",
+          "paginas_pdf": [
+            53,
+            56
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [],
+      "mapa": "mapas/1985_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-1989",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 1989,
+        "fecha": "1989-05-07",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "1989–1993",
+        "anio_inicio_ejercicio": 1989,
+        "anio_fin_ejercicio": 1993,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 0,
+          "plurinominales": 130,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-1989-mnr",
+          "sigla": "MNR",
+          "diputados": 40,
+          "senadores": 9,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-1989-adn",
+          "sigla": "ADN",
+          "diputados": 38,
+          "senadores": 8,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-1989-mir",
+          "sigla": "MIR",
+          "diputados": 33,
+          "senadores": 8,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-1989-iu",
+          "sigla": "IU",
+          "diputados": 10,
+          "senadores": 0,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-1989-condepa",
+          "sigla": "CONDEPA",
+          "diputados": 9,
+          "senadores": 2,
+          "color_editorial": "#755da2"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 13,
+          "uninominales": 0,
+          "plurinominales": 13,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 28,
+          "uninominales": 0,
+          "plurinominales": 28,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 18,
+          "uninominales": 0,
+          "plurinominales": 18,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 10,
+          "uninominales": 0,
+          "plurinominales": 10,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 19,
+          "uninominales": 0,
+          "plurinominales": 19,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 17,
+          "uninominales": 0,
+          "plurinominales": 17,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 7,
+          "uninominales": 0,
+          "plurinominales": 7,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 1967; Ley Electoral 857, de 20 de mayo de 1986",
+        "formula_diputados": "Doble cociente departamental",
+        "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+        "nota": "Sin uninominales; la fórmula difiere de 1985"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_1980_1993",
+          "paginas_pdf": [
+            77,
+            79,
+            80
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [],
+      "mapa": "mapas/1989_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-1993",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 1993,
+        "fecha": "1993-06-06",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "1993–1997",
+        "anio_inicio_ejercicio": 1993,
+        "anio_fin_ejercicio": 1997,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 0,
+          "plurinominales": 130,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-1993-mnr-mrtkl",
+          "sigla": "MNR-MRTKL",
+          "diputados": 52,
+          "senadores": 17,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-1993-ap",
+          "sigla": "AP",
+          "diputados": 35,
+          "senadores": 8,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-1993-ucs",
+          "sigla": "UCS",
+          "diputados": 20,
+          "senadores": 1,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-1993-condepa",
+          "sigla": "CONDEPA",
+          "diputados": 13,
+          "senadores": 1,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-1993-mbl",
+          "sigla": "MBL",
+          "diputados": 7,
+          "senadores": 0,
+          "color_editorial": "#755da2"
+        },
+        {
+          "id": "bo-1993-arbol",
+          "sigla": "ARBOL",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#bb5934"
+        },
+        {
+          "id": "bo-1993-asd",
+          "sigla": "ASD",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#567d35"
+        },
+        {
+          "id": "bo-1993-eje",
+          "sigla": "EJE",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#a3467a"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 13,
+          "uninominales": 0,
+          "plurinominales": 13,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 28,
+          "uninominales": 0,
+          "plurinominales": 28,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 18,
+          "uninominales": 0,
+          "plurinominales": 18,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 10,
+          "uninominales": 0,
+          "plurinominales": 10,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 19,
+          "uninominales": 0,
+          "plurinominales": 19,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 17,
+          "uninominales": 0,
+          "plurinominales": 17,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 0,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 7,
+          "uninominales": 0,
+          "plurinominales": 7,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 1967; Ley Electoral 1246, de 5 de julio de 1991",
+        "formula_diputados": "Divisores impares (Sainte-Laguë: 1, 3, 5…)",
+        "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+        "nota": "Última elección general de un solo voto"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_1980_1993",
+          "paginas_pdf": [
+            123,
+            125,
+            126
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [],
+      "mapa": "mapas/1993_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-1997",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 1997,
+        "fecha": "1997-06-01",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "1997–2002",
+        "anio_inicio_ejercicio": 1997,
+        "anio_fin_ejercicio": 2002,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 68,
+          "plurinominales": 62,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-1997-adn-nfr-pdc",
+          "sigla": "ADN-NFR-PDC",
+          "diputados": 32,
+          "senadores": 11,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-1997-mnr-mrtkl",
+          "sigla": "MNR-MRTKL",
+          "diputados": 26,
+          "senadores": 4,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-1997-mir-nm",
+          "sigla": "MIR-NM",
+          "diputados": 23,
+          "senadores": 7,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-1997-ucs",
+          "sigla": "UCS",
+          "diputados": 21,
+          "senadores": 2,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-1997-condepa-mp",
+          "sigla": "CONDEPA-MP",
+          "diputados": 19,
+          "senadores": 3,
+          "color_editorial": "#755da2"
+        },
+        {
+          "id": "bo-1997-mbl",
+          "sigla": "MBL",
+          "diputados": 5,
+          "senadores": 0,
+          "color_editorial": "#bb5934"
+        },
+        {
+          "id": "bo-1997-iu",
+          "sigla": "IU",
+          "diputados": 4,
+          "senadores": 0,
+          "color_editorial": "#567d35"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 11,
+          "uninominales": 6,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 31,
+          "uninominales": 16,
+          "plurinominales": 15,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 18,
+          "uninominales": 9,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 10,
+          "uninominales": 5,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 15,
+          "uninominales": 8,
+          "plurinominales": 7,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 22,
+          "uninominales": 11,
+          "plurinominales": 11,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 3,
+          "plurinominales": 2,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución reformada en 1994–1995; Ley 1246; Ley 1704, de 2 de agosto de 1996",
+        "formula_diputados": "Sistema mixto: mayoría relativa uninominal y divisores naturales con compensación de las victorias uninominales",
+        "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+        "nota": "68 uninominales y 62 de lista; umbral nacional de 3% para la asignación por lista"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_1997_2002",
+          "paginas_pdf": [
+            5,
+            6,
+            9
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [],
+      "mapa": "mapas/1997_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-2002",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 2002,
+        "fecha": "2002-06-30",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "2002–2006",
+        "anio_inicio_ejercicio": 2002,
+        "anio_fin_ejercicio": 2006,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 68,
+          "plurinominales": 62,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-2002-mnr-mbl",
+          "sigla": "MNR-MBL",
+          "diputados": 36,
+          "senadores": 11,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-2002-mas",
+          "sigla": "MAS",
+          "diputados": 27,
+          "senadores": 8,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-2002-mir-nm-fri",
+          "sigla": "MIR-NM-FRI",
+          "diputados": 26,
+          "senadores": 5,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-2002-nfr",
+          "sigla": "NFR",
+          "diputados": 25,
+          "senadores": 2,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-2002-mip",
+          "sigla": "MIP",
+          "diputados": 6,
+          "senadores": 0,
+          "color_editorial": "#755da2"
+        },
+        {
+          "id": "bo-2002-ucs-fsb",
+          "sigla": "UCS-FSB",
+          "diputados": 5,
+          "senadores": 0,
+          "color_editorial": "#bb5934"
+        },
+        {
+          "id": "bo-2002-adn",
+          "sigla": "ADN",
+          "diputados": 4,
+          "senadores": 1,
+          "color_editorial": "#567d35"
+        },
+        {
+          "id": "bo-2002-ps",
+          "sigla": "PS",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#a3467a"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 11,
+          "uninominales": 6,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 31,
+          "uninominales": 16,
+          "plurinominales": 15,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 18,
+          "uninominales": 9,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 10,
+          "uninominales": 5,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 15,
+          "uninominales": 8,
+          "plurinominales": 7,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 22,
+          "uninominales": 11,
+          "plurinominales": 11,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 3,
+          "plurinominales": 2,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución reformada; Código Electoral de 1999 (Ley 1984)",
+        "formula_diputados": "Sistema mixto con divisores naturales y compensación de las victorias uninominales",
+        "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+        "nota": "68 uninominales y 62 de lista; mandato interrumpido antes de su cierre previsto"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_1997_2002",
+          "paginas_pdf": [
+            67,
+            70
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [
+        "Las elecciones anticipadas se celebraron en diciembre de 2005; el siguiente período comenzó en enero de 2006. El año 2005 conserva como referencia en ejercicio la elección de 2002."
+      ],
+      "mapa": "mapas/2002_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-2005",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 2005,
+        "fecha": "2005-12-18",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "2006–2010",
+        "anio_inicio_ejercicio": 2006,
+        "anio_fin_ejercicio": 2010,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Congreso Nacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 70,
+          "plurinominales": 60,
+          "especiales": 0
+        }
+      },
+      "camara_senadores": {
+        "total": 27,
+        "por_departamento": 3
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-2005-mas",
+          "sigla": "MAS",
+          "diputados": 72,
+          "senadores": 12,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-2005-podemos",
+          "sigla": "PODEMOS",
+          "diputados": 43,
+          "senadores": 13,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-2005-un",
+          "sigla": "UN",
+          "diputados": 8,
+          "senadores": 1,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-2005-mnr",
+          "sigla": "MNR",
+          "diputados": 7,
+          "senadores": 1,
+          "color_editorial": "#a66e12"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 11,
+          "uninominales": 6,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 29,
+          "uninominales": 15,
+          "plurinominales": 14,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 19,
+          "uninominales": 10,
+          "plurinominales": 9,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 14,
+          "uninominales": 8,
+          "plurinominales": 6,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 25,
+          "uninominales": 13,
+          "plurinominales": 12,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 3
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 3,
+          "plurinominales": 2,
+          "especiales": 0,
+          "senadores": 3
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución reformada; Código Electoral; Decreto Supremo 28429, de 1 de noviembre de 2005",
+        "formula_diputados": "Sistema mixto con divisores naturales y compensación de las victorias uninominales",
+        "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+        "nota": "70 uninominales y 60 de lista; nueva distribución departamental"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_2005",
+          "paginas_pdf": [
+            34,
+            35,
+            38
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [
+        "Elección en diciembre de 2005 e inicio del ejercicio en 2006. La elección de diciembre de 2009 corresponde al período iniciado en 2010."
+      ],
+      "mapa": "mapas/2005_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-2009",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 2009,
+        "fecha": "2009-12-06",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "2010–2015",
+        "anio_inicio_ejercicio": 2010,
+        "anio_fin_ejercicio": 2015,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Asamblea Legislativa Plurinacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 70,
+          "plurinominales": 53,
+          "especiales": 7
+        }
+      },
+      "camara_senadores": {
+        "total": 36,
+        "por_departamento": 4
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-2009-mas-ipsp",
+          "sigla": "MAS-IPSP",
+          "diputados": 88,
+          "senadores": 26,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-2009-ppb-cn",
+          "sigla": "PPB-CN",
+          "diputados": 37,
+          "senadores": 10,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-2009-un-cp",
+          "sigla": "UN-CP",
+          "diputados": 3,
+          "senadores": 0,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-2009-as",
+          "sigla": "AS",
+          "diputados": 2,
+          "senadores": 0,
+          "color_editorial": "#a66e12"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 11,
+          "uninominales": 6,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 29,
+          "uninominales": 15,
+          "plurinominales": 13,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 19,
+          "uninominales": 10,
+          "plurinominales": 8,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 3,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 14,
+          "uninominales": 8,
+          "plurinominales": 6,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 3,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 25,
+          "uninominales": 13,
+          "plurinominales": 11,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 3,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 3,
+          "plurinominales": 1,
+          "especiales": 1,
+          "senadores": 4
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 2009; Ley 4021 del Régimen Electoral Transitorio, de 14 de abril de 2009",
+        "formula_diputados": "Sistema mixto: 70 uninominales, 53 plurinominales y 7 especiales; proporcionalidad compensatoria",
+        "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+        "nota": "Primera elección de la ALP; la Ley 026 de 2010 no se aplica retroactivamente a estos comicios"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_2009",
+          "paginas_pdf": [
+            4,
+            5,
+            11
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        }
+      ],
+      "observaciones": [],
+      "mapa": "mapas/2009_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-2014",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 2014,
+        "fecha": "2014-10-12",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "2015–2020",
+        "anio_inicio_ejercicio": 2015,
+        "anio_fin_ejercicio": 2020,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Asamblea Legislativa Plurinacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 63,
+          "plurinominales": 60,
+          "especiales": 7
+        }
+      },
+      "camara_senadores": {
+        "total": 36,
+        "por_departamento": 4
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-2014-mas-ipsp",
+          "sigla": "MAS-IPSP",
+          "diputados": 88,
+          "senadores": 25,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-2014-ud",
+          "sigla": "UD",
+          "diputados": 32,
+          "senadores": 9,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-2014-pdc",
+          "sigla": "PDC",
+          "diputados": 10,
+          "senadores": 2,
+          "color_editorial": "#298376"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 10,
+          "uninominales": 5,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 29,
+          "uninominales": 14,
+          "plurinominales": 14,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 19,
+          "uninominales": 9,
+          "plurinominales": 9,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 9,
+          "uninominales": 4,
+          "plurinominales": 4,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 13,
+          "uninominales": 7,
+          "plurinominales": 6,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 4,
+          "plurinominales": 4,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 28,
+          "uninominales": 14,
+          "plurinominales": 13,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 8,
+          "uninominales": 4,
+          "plurinominales": 3,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 2,
+          "plurinominales": 2,
+          "especiales": 1,
+          "senadores": 4
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 2009; leyes 018 y 026 (2010); Ley 421, de 7 de octubre de 2013",
+        "formula_diputados": "63 uninominales, 60 plurinominales y 7 especiales; proporcionalidad compensatoria",
+        "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+        "nota": "Reparto basado en el censo de 2012; prórroga de mandatos en 2020"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "atlas_2014",
+          "paginas_pdf": [
+            13,
+            22,
+            23
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        },
+        {
+          "fuente_id": "normas_2020",
+          "paginas_pdf": [
+            305
+          ],
+          "localizador": "Ley 1266, artículo 2"
+        }
+      ],
+      "observaciones": [
+        "Los cuadros 11–12 del Atlas asignan 88 diputados y 25 senadores al MAS-IPSP, 32 y 9 a UD, y 10 y 2 al PDC.",
+        "El cuadro 10 y su nota *** registran una candidatura titular masculina de UD sin reemplazo. Se conservan los 130 escaños asignados y se registra la incidencia por separado, sin afirmar su duración ni una vacancia permanente.",
+        "Las elecciones de 2019 y sus resultados quedaron sin efecto mediante la Ley 1266, artículo 2. La legislatura precedente continuó durante la transición y la prórroga de 2020."
+      ],
+      "mapa": "mapas/2014_escanos.png",
+      "incidencias_iniciales": [
+        {
+          "organizacion": "UD",
+          "camara": "diputados",
+          "cantidad": 1,
+          "descripcion": "Titular no reemplazado en la tabla de candidatos electos; evolución posterior no auditada",
+          "fuente_id": "atlas_2014",
+          "pagina_pdf": 22
+        }
+      ]
+    },
+    {
+      "id": "bo-eleccion-2020",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 2020,
+        "fecha": "2020-10-18",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "2020–2025",
+        "anio_inicio_ejercicio": 2020,
+        "anio_fin_ejercicio": 2025,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": false
+      },
+      "institucion": "Asamblea Legislativa Plurinacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 63,
+          "plurinominales": 60,
+          "especiales": 7
+        }
+      },
+      "camara_senadores": {
+        "total": 36,
+        "por_departamento": 4
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-2020-mas-ipsp",
+          "sigla": "MAS-IPSP",
+          "diputados": 75,
+          "senadores": 21,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-2020-cc",
+          "sigla": "CC",
+          "diputados": 39,
+          "senadores": 11,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-2020-creemos",
+          "sigla": "CREEMOS",
+          "diputados": 16,
+          "senadores": 4,
+          "color_editorial": "#298376"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 10,
+          "uninominales": 5,
+          "plurinominales": 5,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 29,
+          "uninominales": 14,
+          "plurinominales": 14,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 19,
+          "uninominales": 9,
+          "plurinominales": 9,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 9,
+          "uninominales": 4,
+          "plurinominales": 4,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 13,
+          "uninominales": 7,
+          "plurinominales": 6,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 4,
+          "plurinominales": 4,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 28,
+          "uninominales": 14,
+          "plurinominales": 13,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 8,
+          "uninominales": 4,
+          "plurinominales": 3,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 2,
+          "plurinominales": 2,
+          "especiales": 1,
+          "senadores": 4
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 2009; leyes 018 y 026; Ley 421; Ley 1266 de régimen excepcional y normas de convocatoria 2020",
+        "formula_diputados": "63 uninominales, 60 plurinominales y 7 especiales; proporcionalidad compensatoria",
+        "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+        "nota": "La elección anulada de 2019 no origina un mandato adicional"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "resultados_2020",
+          "paginas_pdf": [],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        },
+        {
+          "fuente_id": "normas_2020",
+          "paginas_pdf": [],
+          "localizador": "Constitución, Ley 026, Ley 421 y régimen excepcional"
+        }
+      ],
+      "observaciones": [],
+      "mapa": "mapas/2020_escanos.png"
+    },
+    {
+      "id": "bo-eleccion-2025",
+      "pais": "Bolivia",
+      "eleccion_origen": {
+        "anio": 2025,
+        "fecha": "2025-08-17",
+        "estado": "valida"
+      },
+      "periodo": {
+        "etiqueta": "2025–2030",
+        "anio_inicio_ejercicio": 2025,
+        "anio_fin_ejercicio": 2030,
+        "precision_temporal": "año; extremos compartidos con el período contiguo",
+        "fin_es_previsto": true
+      },
+      "institucion": "Asamblea Legislativa Plurinacional",
+      "camara_diputados": {
+        "total": 130,
+        "por_tipo": {
+          "uninominales": 63,
+          "plurinominales": 60,
+          "especiales": 7
+        }
+      },
+      "camara_senadores": {
+        "total": 36,
+        "por_departamento": 4
+      },
+      "organizaciones_electorales": [
+        {
+          "id": "bo-2025-pdc",
+          "sigla": "PDC",
+          "diputados": 49,
+          "senadores": 16,
+          "color_editorial": "#205b86"
+        },
+        {
+          "id": "bo-2025-libre",
+          "sigla": "LIBRE",
+          "diputados": 39,
+          "senadores": 12,
+          "color_editorial": "#a54148"
+        },
+        {
+          "id": "bo-2025-unidad",
+          "sigla": "UNIDAD",
+          "diputados": 26,
+          "senadores": 7,
+          "color_editorial": "#298376"
+        },
+        {
+          "id": "bo-2025-ap",
+          "sigla": "AP",
+          "diputados": 8,
+          "senadores": 0,
+          "color_editorial": "#a66e12"
+        },
+        {
+          "id": "bo-2025-apb-s-mate",
+          "sigla": "APB-SÚMATE",
+          "diputados": 5,
+          "senadores": 1,
+          "color_editorial": "#755da2"
+        },
+        {
+          "id": "bo-2025-mas-ipsp",
+          "sigla": "MAS-IPSP",
+          "diputados": 2,
+          "senadores": 0,
+          "color_editorial": "#bb5934"
+        },
+        {
+          "id": "bo-2025-bia-yuqui",
+          "sigla": "BIA-YUQUI",
+          "diputados": 1,
+          "senadores": 0,
+          "color_editorial": "#567d35"
+        }
+      ],
+      "distribucion_territorial": [
+        {
+          "departamento": "Chuquisaca",
+          "diputados": 9,
+          "uninominales": 5,
+          "plurinominales": 4,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "La Paz",
+          "diputados": 29,
+          "uninominales": 14,
+          "plurinominales": 14,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Cochabamba",
+          "diputados": 19,
+          "uninominales": 9,
+          "plurinominales": 9,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Oruro",
+          "diputados": 9,
+          "uninominales": 4,
+          "plurinominales": 4,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Potosí",
+          "diputados": 13,
+          "uninominales": 7,
+          "plurinominales": 6,
+          "especiales": 0,
+          "senadores": 4
+        },
+        {
+          "departamento": "Tarija",
+          "diputados": 9,
+          "uninominales": 4,
+          "plurinominales": 4,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Santa Cruz",
+          "diputados": 29,
+          "uninominales": 14,
+          "plurinominales": 14,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Beni",
+          "diputados": 8,
+          "uninominales": 4,
+          "plurinominales": 3,
+          "especiales": 1,
+          "senadores": 4
+        },
+        {
+          "departamento": "Pando",
+          "diputados": 5,
+          "uninominales": 2,
+          "plurinominales": 2,
+          "especiales": 1,
+          "senadores": 4
+        }
+      ],
+      "normativa_aplicada_eleccion": {
+        "marco": "Constitución de 2009; leyes 018, 026 y 1096; Ley 1614, de 15 de enero de 2025",
+        "formula_diputados": "63 uninominales, 60 plurinominales y 7 especiales; proporcionalidad compensatoria",
+        "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+        "nota": "Santa Cruz pasa a 29 diputados y Chuquisaca a 9; la segunda vuelta presidencial no redistribuye escaños legislativos"
+      },
+      "tipo_composicion": "asignacion_electoral_de_origen",
+      "composicion_efectiva_actual": null,
+      "fuentes": [
+        {
+          "fuente_id": "resultados_2025",
+          "paginas_pdf": [
+            5,
+            7,
+            8,
+            12,
+            13,
+            15,
+            16,
+            19,
+            21,
+            22,
+            24,
+            28,
+            30
+          ],
+          "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+        },
+        {
+          "fuente_id": "ley_1614",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "localizador": "Artículo único, distribución departamental"
+        }
+      ],
+      "observaciones": [
+        "Composición electoral de 2025, utilizada como base del período 2025–2030. No se presenta como fotografía de las bancadas efectivas del 11 de octubre de 2026."
+      ],
+      "mapa": "mapas/2025_escanos.png"
+    }
+  ]
+}

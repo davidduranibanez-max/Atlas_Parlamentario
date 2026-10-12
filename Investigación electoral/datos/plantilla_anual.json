@@ -1,0 +1,13 @@
+{
+  "anio": null,
+  "fecha_referencia": null,
+  "pais": "Bolivia",
+  "gestiones_en_el_anio": [],
+  "gestion_referencia_id": null,
+  "eleccion_origen": null,
+  "composicion_mostrada": "asignacion_electoral_de_origen",
+  "snapshot_efectivo": null,
+  "estado_snapshot": "no_reconstruido",
+  "archivo_gestion": null,
+  "nota": null
+}

@@ -1,0 +1,15 @@
+{
+  "anio": 2000,
+  "fecha_referencia": "2000-12-31",
+  "pais": "Bolivia",
+  "gestiones_en_el_anio": [
+    "bo-eleccion-1997"
+  ],
+  "gestion_referencia_id": "bo-eleccion-1997",
+  "eleccion_origen": 1997,
+  "composicion_mostrada": "asignacion_electoral_de_origen",
+  "snapshot_efectivo": null,
+  "estado_snapshot": "no_reconstruido",
+  "archivo_gestion": "../gestiones/1997.json",
+  "nota": "Referencia de fin de año (en 2026, fecha de corte). Los extremos anuales son aproximados; no usar para resolver una fecha exacta de transición. La asignación de origen no prueba la adscripción efectiva de cada año."
+}

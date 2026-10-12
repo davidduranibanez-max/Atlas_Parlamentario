@@ -1,0 +1,32 @@
+---
+import initial from '../../public/data/gestiones/bo-eleccion-2025.json';
+import {chamberMarkup} from '../lib/chambers.js';
+const filters={query:'',chamber:'',condition:'Titular',department:'',party:''};
+---
+<div id="load-error" class="state-box error-box" role="alert" hidden>
+ <p></p><button type="button" class="pill-button" id="retry">Volver a intentar</button>
+</div>
+<div class="explorer-layout">
+ <div class="chambers-area">
+  <div id="chambers" data-year="2026" data-gestion="bo-eleccion-2025|2026|" set:html={chamberMarkup(initial, filters, '', 2026)}></div>
+  <details id="directory-layout" class="directory-layout">
+   <summary class="directory-toggle"><span id="roster-title">Directorio por bancada</span><small id="roster-total"></small></summary>
+   <section id="roster" class="atlas-roster" aria-labelledby="roster-title">
+    <div id="roster-content"></div>
+    <button type="button" class="pill-button" id="more-people" hidden>Mostrar más personas</button>
+   </section>
+  </details>
+ </div>
+ <details id="profile-layout" class="profile-layout">
+  <summary class="directory-toggle"><span>Ficha del parlamentario</span></summary>
+  <aside id="person-panel" class="atlas-person-panel" aria-label="Ficha del parlamentario">
+   <div class="panel-placeholder">
+    <span class="placeholder-symbol" aria-hidden="true">◎</span>
+    <p class="section-label">ELIGE UN REPRESENTANTE</p>
+    <h3>Cada escaño tiene una historia.</h3>
+    <p>Selecciona un punto del hemiciclo o un nombre del directorio para abrir su ficha.</p>
+    <small>Los puntos se agrupan por bancada. Su ubicación es esquemática.</small>
+   </div>
+  </aside>
+ </details>
+</div>

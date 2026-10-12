@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" class="hemicycle-plan plan-senate plan-historic" role="img" aria-labelledby="historic-title" focusable="false">
+<title id="historic-title">Antiguo Congreso Nacional · Senadores · 27 escaños</title>
+<desc>Distribución de puntos medida de la referencia electoral de 2005, conservando sus proporciones y el estilo del atlas. Sin medidas arquitectónicas ni asignaciones personales de asiento.</desc>
+<style>
+svg{background:#f8f7ee}path,rect{vector-effect:non-scaling-stroke}
+.plan-perimeter{fill:none;stroke:#9b9f8c;stroke-width:1}
+.plan-stage{fill:#eeeadd;stroke:#9b9f8c;stroke-width:1}.plan-stage>path{fill:none}
+.plan-presidium{fill:#dddcc8}.plan-chair-outline{fill:#fcfbf5}
+.plan-desk-surface{fill:none;stroke:#e9e5d3;stroke-width:13;stroke-linecap:round}
+.plan-desk-edge{fill:none;stroke:#b1a78c;stroke-width:1}
+.plan-aisles{fill:none;stroke:#9b9f8c;stroke-width:1;stroke-dasharray:2 5;opacity:.8}
+.plan-labels{fill:#909584;font-family:Segoe UI,sans-serif;font-size:9px;letter-spacing:1.7px}
+.seat{fill:#a8c6b5;stroke:#6c9582;stroke-width:.6}
+.plan-senate .plan-desk-surface{stroke-width:23}</style>
+
+<g class="plan-stage"><path d="M 420 35 H 580 V 83 H 420 Z"/><path class="plan-presidium" d="M 432 49 H 568 V 65 H 432 Z"/><path d="M 429 97 H 571 M 440 109 H 560"/><rect x="484" y="136" width="32" height="26" rx="4"/></g>
+<g class="plan-desks"><g><path class="plan-desk-surface" d="M 389.911 138.020 C 388.184 148.681 382.056 180.658 379.544 201.990 C 377.032 223.321 376.036 244.675 374.839 266.010 C 373.643 287.346 372.363 308.670 372.363 330.005 C 372.363 351.340 373.640 372.691 374.838 394.020 C 376.036 415.349 377.037 436.646 379.550 457.980 C 382.063 479.313 388.187 511.349 389.915 522.023"/><path class="plan-desk-edge" d="M 389.911 138.020 C 388.184 148.681 382.056 180.658 379.544 201.990 C 377.032 223.321 376.036 244.675 374.839 266.010 C 373.643 287.346 372.363 308.670 372.363 330.005 C 372.363 351.340 373.640 372.691 374.838 394.020 C 376.036 415.349 377.037 436.646 379.550 457.980 C 382.063 479.313 388.187 511.349 389.915 522.023"/></g>
+<g><path class="plan-desk-surface" d="M 610.086 151.618 C 611.816 165.250 617.947 209.029 620.463 233.407 C 622.980 257.785 624.460 276.711 625.186 297.889 C 625.911 319.067 625.601 339.220 624.818 360.475 C 624.036 381.730 622.936 401.279 620.492 425.420 C 618.048 449.562 611.877 492.006 610.154 505.324"/><path class="plan-desk-edge" d="M 610.086 151.618 C 611.816 165.250 617.947 209.029 620.463 233.407 C 622.980 257.785 624.460 276.711 625.186 297.889 C 625.911 319.067 625.601 339.220 624.818 360.475 C 624.036 381.730 622.936 401.279 620.492 425.420 C 618.048 449.562 611.877 492.006 610.154 505.324"/></g>
+<g><path class="plan-desk-surface" d="M 320.265 90.000 C 318.160 103.338 310.713 143.365 307.639 170.030 C 304.564 196.696 303.199 223.333 301.817 249.993 C 300.435 276.653 299.349 303.318 299.346 329.988 C 299.344 356.658 300.421 383.346 301.803 410.013 C 303.186 436.680 304.566 463.325 307.639 489.989 C 310.713 516.653 318.144 556.662 320.245 569.996"/><path class="plan-desk-edge" d="M 320.265 90.000 C 318.160 103.338 310.713 143.365 307.639 170.030 C 304.564 196.696 303.199 223.333 301.817 249.993 C 300.435 276.653 299.349 303.318 299.346 329.988 C 299.344 356.658 300.421 383.346 301.803 410.013 C 303.186 436.680 304.566 463.325 307.639 489.989 C 310.713 516.653 318.144 556.662 320.245 569.996"/></g>
+<g><path class="plan-desk-surface" d="M 679.760 90.011 C 681.864 103.347 689.310 143.362 692.381 170.025 C 695.451 196.688 696.805 223.330 698.184 249.990 C 699.563 276.650 700.652 303.313 700.654 329.985 C 700.655 356.658 699.571 383.355 698.193 410.025 C 696.814 436.694 695.454 463.338 692.381 490.000 C 689.308 516.663 681.859 556.667 679.754 570.000"/><path class="plan-desk-edge" d="M 679.760 90.011 C 681.864 103.347 689.310 143.362 692.381 170.025 C 695.451 196.688 696.805 223.330 698.184 249.990 C 699.563 276.650 700.652 303.313 700.654 329.985 C 700.655 356.658 699.571 383.355 698.193 410.025 C 696.814 436.694 695.454 463.338 692.381 490.000 C 689.308 516.663 681.859 556.667 679.754 570.000"/></g></g>
+<g class="plan-aisles"><path d="M 470 190 V 587 M 530 190 V 587"/></g>
+<g class="plan-labels"><text x="500" y="24" text-anchor="middle">MESA DIRECTIVA</text><text x="500" y="332" text-anchor="middle">SENADO</text></g>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_b564f0d23d4f9e7d",
+  "camara": "SENADORES",
+  "nombre_completo": "YASMIN ESTIVARIZ VILLARROEL",
+  "nombres": "YASMIN",
+  "apellidos": "ESTIVARIZ VILLARROEL",
+  "departamento": "Oruro",
+  "partido_id": "P_ae996a2b809b71c7",
+  "titularidad": "TITULAR",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/76",
+  "foto_url": "https://apisi.senado.gob.bo/images/a06fe09c-0984-4663-9c74-6ef7d933c27d_1764023701.jpg",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "PDC",
+  "partido_nombre": "Partido Demócrata Cristiano",
+  "mandatos": [
+    {
+      "mandato_id": "M_c547d51cd8f13055",
+      "legislador_id": "L_b564f0d23d4f9e7d",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": "1ra Secretaría",
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

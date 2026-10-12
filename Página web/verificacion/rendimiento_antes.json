@@ -1,0 +1,46 @@
+{
+  "bytes_iniciales_estimados": 3665985,
+  "json_2025_bytes": 3465679,
+  "archivos": [
+    {
+      "archivo": "dist/index.html",
+      "bytes": 6823
+    },
+    {
+      "archivo": "dist/assets/app.js",
+      "bytes": 23290
+    },
+    {
+      "archivo": "dist/assets/model.js",
+      "bytes": 2701
+    },
+    {
+      "archivo": "dist/assets/partidos.js",
+      "bytes": 2755
+    },
+    {
+      "archivo": "dist/assets/atlas.css",
+      "bytes": 18079
+    },
+    {
+      "archivo": "dist/assets/template/legacy.css",
+      "bytes": 72934
+    },
+    {
+      "archivo": "dist/assets/template/theme.css",
+      "bytes": 38656
+    },
+    {
+      "archivo": "dist/data/manifest.json",
+      "bytes": 34928
+    },
+    {
+      "archivo": "dist/data/lineas_tiempo.json",
+      "bytes": 140
+    },
+    {
+      "archivo": "dist/data/gestiones/bo-eleccion-2025.json",
+      "bytes": 3465679
+    }
+  ]
+}

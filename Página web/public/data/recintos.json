@@ -1,0 +1,16 @@
+{
+  "criterio": "Sede antigua hasta 2020; 2021 muestra la sede nueva con aviso explícito del traslado en agosto. No representa una sede única para todo ese año.",
+  "referencia_visual": "https://es.wikipedia.org/wiki/Elecciones_generales_de_Bolivia_de_2014",
+  "referencia_senado27": "https://es.wikipedia.org/wiki/Elecciones_generales_de_Bolivia_de_2005",
+  "metodo": "Coordenadas medidas de cada diagrama; escala uniforme, sin reconstruir con elipses.",
+  "fuentes_traslado": [
+    "https://diputados.gob.bo/noticias/presidente-de-diputados-nuevo-edificio-de-la-alp-representa-la-transformacion-del-estado-republicano-al-estado-plurinacional/",
+    "https://diputados.gob.bo/noticias/diputados-desarrollan-ultima-sesion-plenaria-en-el-historico-hemiciclo-de-la-asamblea-legislativa-plurinacional/"
+  ],
+  "alcance": "Esquemas gráficos, sin medidas arquitectónicas ni posiciones históricas individuales.",
+  "variantes": [
+    "Diputados: 130",
+    "Senadores: 27",
+    "Senadores: 36"
+  ]
+}

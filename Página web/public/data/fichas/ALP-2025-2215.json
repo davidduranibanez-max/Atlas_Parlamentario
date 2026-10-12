@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_ff83f54ed58bb270",
+  "camara": "SENADORES",
+  "nombre_completo": "RAMIRO MAMANI RAMIREZ",
+  "nombres": "RAMIRO",
+  "apellidos": "MAMANI RAMIREZ",
+  "departamento": "Oruro",
+  "partido_id": "P_ae996a2b809b71c7",
+  "titularidad": "SUPLENTE",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/130",
+  "foto_url": "https://apisi.senado.gob.bo/images/a12c7cf5-af33-4886-8bee-b611c5cd2861_1772124471.png",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "PDC",
+  "partido_nombre": "Partido Demócrata Cristiano",
+  "mandatos": [
+    {
+      "mandato_id": "M_d38b0fe1de81101b",
+      "legislador_id": "L_ff83f54ed58bb270",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": null,
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

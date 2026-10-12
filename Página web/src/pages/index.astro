@@ -1,0 +1,22 @@
+---
+import AtlasLayout from '../layouts/AtlasLayout.astro';
+import Header from '../components/Header.astro';
+import Filters from '../components/Filters.astro';
+import Timeline from '../components/Timeline.astro';
+import Explorer from '../components/Explorer.astro';
+import Sources from '../components/Sources.astro';
+import Footer from '../components/Footer.astro';
+---
+<AtlasLayout>
+ <a class="skip-link" href="#explorar">Ir al explorador</a>
+ <div class="tricolor" aria-hidden="true"><span></span><span></span><span></span></div>
+ <Header />
+ <main>
+  <section class="workspace atlas-workspace" id="explorar" aria-label="Explorador parlamentario"><Filters /><Timeline /><Explorer /></section>
+  <section class="atlas-context" id="contexto"><div class="section-top"><div><p class="section-label">02 / CONTEXTO</p><h2>Las reglas de la representación</h2></div></div><div id="electoral-context"></div></section>
+  <Sources />
+  <noscript><section class="no-script"><p>Los hemiciclos muestran la nómina de origen. Activa JavaScript para usar los filtros y abrir las fichas, o consulta los <a href="./data/manifest.json">datos del atlas</a>.</p></section></noscript>
+ </main>
+ <Footer />
+ <script>import '../client/atlas.js';</script>
+</AtlasLayout>

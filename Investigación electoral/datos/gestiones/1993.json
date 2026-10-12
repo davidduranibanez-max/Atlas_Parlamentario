@@ -1,0 +1,182 @@
+{
+  "id": "bo-eleccion-1993",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 1993,
+    "fecha": "1993-06-06",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "1993–1997",
+    "anio_inicio_ejercicio": 1993,
+    "anio_fin_ejercicio": 1997,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": false
+  },
+  "institucion": "Congreso Nacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 0,
+      "plurinominales": 130,
+      "especiales": 0
+    }
+  },
+  "camara_senadores": {
+    "total": 27,
+    "por_departamento": 3
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-1993-mnr-mrtkl",
+      "sigla": "MNR-MRTKL",
+      "diputados": 52,
+      "senadores": 17,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-1993-ap",
+      "sigla": "AP",
+      "diputados": 35,
+      "senadores": 8,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-1993-ucs",
+      "sigla": "UCS",
+      "diputados": 20,
+      "senadores": 1,
+      "color_editorial": "#298376"
+    },
+    {
+      "id": "bo-1993-condepa",
+      "sigla": "CONDEPA",
+      "diputados": 13,
+      "senadores": 1,
+      "color_editorial": "#a66e12"
+    },
+    {
+      "id": "bo-1993-mbl",
+      "sigla": "MBL",
+      "diputados": 7,
+      "senadores": 0,
+      "color_editorial": "#755da2"
+    },
+    {
+      "id": "bo-1993-arbol",
+      "sigla": "ARBOL",
+      "diputados": 1,
+      "senadores": 0,
+      "color_editorial": "#bb5934"
+    },
+    {
+      "id": "bo-1993-asd",
+      "sigla": "ASD",
+      "diputados": 1,
+      "senadores": 0,
+      "color_editorial": "#567d35"
+    },
+    {
+      "id": "bo-1993-eje",
+      "sigla": "EJE",
+      "diputados": 1,
+      "senadores": 0,
+      "color_editorial": "#a3467a"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 13,
+      "uninominales": 0,
+      "plurinominales": 13,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 28,
+      "uninominales": 0,
+      "plurinominales": 28,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 18,
+      "uninominales": 0,
+      "plurinominales": 18,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 10,
+      "uninominales": 0,
+      "plurinominales": 10,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 19,
+      "uninominales": 0,
+      "plurinominales": 19,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 0,
+      "plurinominales": 9,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 17,
+      "uninominales": 0,
+      "plurinominales": 17,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 9,
+      "uninominales": 0,
+      "plurinominales": 9,
+      "especiales": 0,
+      "senadores": 3
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 7,
+      "uninominales": 0,
+      "plurinominales": 7,
+      "especiales": 0,
+      "senadores": 3
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución de 1967; Ley Electoral 1246, de 5 de julio de 1991",
+    "formula_diputados": "Divisores impares (Sainte-Laguë: 1, 3, 5…)",
+    "formula_senadores": "Dos para la primera mayoría y uno para la segunda por departamento",
+    "nota": "Última elección general de un solo voto"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "atlas_1980_1993",
+      "paginas_pdf": [
+        123,
+        125,
+        126
+      ],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    }
+  ],
+  "observaciones": [],
+  "mapa": "mapas/1993_escanos.png"
+}

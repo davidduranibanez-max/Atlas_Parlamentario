@@ -1,0 +1,47 @@
+{
+  "legislador_id": "L_88b24c249c24359f",
+  "camara": "SENADORES",
+  "nombre_completo": "JULIO DIEGO ROMAÑA GALINDO",
+  "nombres": "JULIO DIEGO",
+  "apellidos": "ROMAÑA GALINDO",
+  "departamento": "Pando",
+  "partido_id": "P_e9768dff308f44e6",
+  "titularidad": "TITULAR",
+  "genero_etiqueta_portal": null,
+  "perfil_url": "https://senado.gob.bo/area-legislativa/pleno-camaral/77",
+  "foto_url": "https://apisi.senado.gob.bo/images/a06fe14f-1ba0-4629-a9b5-ff163dbc2ab0_1764023818.jpeg",
+  "fuente_id": "F_c65072fbfbafbae5",
+  "confianza_datos": 1.0,
+  "partido_sigla": "LIBRE",
+  "partido_nombre": "ALIANZA LIBRE",
+  "mandatos": [
+    {
+      "mandato_id": "M_9e96a8375dba3727",
+      "legislador_id": "L_88b24c249c24359f",
+      "periodo": "2025-2030",
+      "camara": "SENADORES",
+      "tipo_eleccion": null,
+      "circunscripcion": null,
+      "comision": null,
+      "comite": null,
+      "cargo": "2da Secretaría",
+      "activo_snapshot": 1
+    }
+  ],
+  "asistencias": [],
+  "votos_individuales": [],
+  "snapshot_utc": "2026-09-16T01:23:38+00:00",
+  "fuente": {
+    "fuente_id": "F_c65072fbfbafbae5",
+    "institucion": "CAMARA_SENADORES",
+    "tipo": "API_PADRON",
+    "titulo": "Pleno de Senadores",
+    "url": "https://apisi.senado.gob.bo/page/senadores/pleno",
+    "recuperado_en": "2026-09-16T01:23:38+00:00",
+    "archivo_local": null,
+    "sha256": null,
+    "paginas": null,
+    "notas": null
+  },
+  "incidencias": []
+}

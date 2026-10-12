@@ -1,0 +1,168 @@
+{
+  "id": "bo-eleccion-2014",
+  "pais": "Bolivia",
+  "eleccion_origen": {
+    "anio": 2014,
+    "fecha": "2014-10-12",
+    "estado": "valida"
+  },
+  "periodo": {
+    "etiqueta": "2015–2020",
+    "anio_inicio_ejercicio": 2015,
+    "anio_fin_ejercicio": 2020,
+    "precision_temporal": "año; extremos compartidos con el período contiguo",
+    "fin_es_previsto": false
+  },
+  "institucion": "Asamblea Legislativa Plurinacional",
+  "camara_diputados": {
+    "total": 130,
+    "por_tipo": {
+      "uninominales": 63,
+      "plurinominales": 60,
+      "especiales": 7
+    }
+  },
+  "camara_senadores": {
+    "total": 36,
+    "por_departamento": 4
+  },
+  "organizaciones_electorales": [
+    {
+      "id": "bo-2014-mas-ipsp",
+      "sigla": "MAS-IPSP",
+      "diputados": 88,
+      "senadores": 25,
+      "color_editorial": "#205b86"
+    },
+    {
+      "id": "bo-2014-ud",
+      "sigla": "UD",
+      "diputados": 32,
+      "senadores": 9,
+      "color_editorial": "#a54148"
+    },
+    {
+      "id": "bo-2014-pdc",
+      "sigla": "PDC",
+      "diputados": 10,
+      "senadores": 2,
+      "color_editorial": "#298376"
+    }
+  ],
+  "distribucion_territorial": [
+    {
+      "departamento": "Chuquisaca",
+      "diputados": 10,
+      "uninominales": 5,
+      "plurinominales": 5,
+      "especiales": 0,
+      "senadores": 4
+    },
+    {
+      "departamento": "La Paz",
+      "diputados": 29,
+      "uninominales": 14,
+      "plurinominales": 14,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Cochabamba",
+      "diputados": 19,
+      "uninominales": 9,
+      "plurinominales": 9,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Oruro",
+      "diputados": 9,
+      "uninominales": 4,
+      "plurinominales": 4,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Potosí",
+      "diputados": 13,
+      "uninominales": 7,
+      "plurinominales": 6,
+      "especiales": 0,
+      "senadores": 4
+    },
+    {
+      "departamento": "Tarija",
+      "diputados": 9,
+      "uninominales": 4,
+      "plurinominales": 4,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Santa Cruz",
+      "diputados": 28,
+      "uninominales": 14,
+      "plurinominales": 13,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Beni",
+      "diputados": 8,
+      "uninominales": 4,
+      "plurinominales": 3,
+      "especiales": 1,
+      "senadores": 4
+    },
+    {
+      "departamento": "Pando",
+      "diputados": 5,
+      "uninominales": 2,
+      "plurinominales": 2,
+      "especiales": 1,
+      "senadores": 4
+    }
+  ],
+  "normativa_aplicada_eleccion": {
+    "marco": "Constitución de 2009; leyes 018 y 026 (2010); Ley 421, de 7 de octubre de 2013",
+    "formula_diputados": "63 uninominales, 60 plurinominales y 7 especiales; proporcionalidad compensatoria",
+    "formula_senadores": "Divisores naturales por departamento para cuatro escaños",
+    "nota": "Reparto basado en el censo de 2012; prórroga de mandatos en 2020"
+  },
+  "tipo_composicion": "asignacion_electoral_de_origen",
+  "composicion_efectiva_actual": null,
+  "fuentes": [
+    {
+      "fuente_id": "atlas_2014",
+      "paginas_pdf": [
+        13,
+        22,
+        23
+      ],
+      "localizador": "Tablas de asignación de diputaciones y senadurías; marco electoral"
+    },
+    {
+      "fuente_id": "normas_2020",
+      "paginas_pdf": [
+        305
+      ],
+      "localizador": "Ley 1266, artículo 2"
+    }
+  ],
+  "observaciones": [
+    "Los cuadros 11–12 del Atlas asignan 88 diputados y 25 senadores al MAS-IPSP, 32 y 9 a UD, y 10 y 2 al PDC.",
+    "El cuadro 10 y su nota *** registran una candidatura titular masculina de UD sin reemplazo. Se conservan los 130 escaños asignados y se registra la incidencia por separado, sin afirmar su duración ni una vacancia permanente.",
+    "Las elecciones de 2019 y sus resultados quedaron sin efecto mediante la Ley 1266, artículo 2. La legislatura precedente continuó durante la transición y la prórroga de 2020."
+  ],
+  "mapa": "mapas/2014_escanos.png",
+  "incidencias_iniciales": [
+    {
+      "organizacion": "UD",
+      "camara": "diputados",
+      "cantidad": 1,
+      "descripcion": "Titular no reemplazado en la tabla de candidatos electos; evolución posterior no auditada",
+      "fuente_id": "atlas_2014",
+      "pagina_pdf": 22
+    }
+  ]
+}

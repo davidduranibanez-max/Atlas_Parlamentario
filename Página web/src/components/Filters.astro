@@ -1,0 +1,12 @@
+---
+import manifest from "../../public/data/manifest.json";
+---
+  <div class="atlas-filters" aria-label="Filtros del atlas">
+   <label class="filter-field"><span>Año</span><select id="year" aria-label="Año de referencia">{manifest.anios.slice().reverse().map(a => <option value={a.anio} selected={a.anio===2026}>{a.anio}</option>)}</select></label>
+   <label class="filter-field"><span>Cámara</span><select id="chamber"><option value="">Ambas cámaras</option><option value="Diputados">Diputados</option><option value="Senadores">Senadores</option></select></label>
+   <label class="filter-field"><span>Departamento</span><select id="department"><option value="">Todos</option></select></label>
+   <label class="filter-field"><span>Bancada</span><select id="party"><option value="">Todas</option></select></label>
+   <label class="filter-field"><span>Condición</span><select id="condition"><option value="Titular">Titulares</option><option value="Suplente">Suplentes</option><option value="">Todos</option></select></label>
+   <label class="filter-field search-atlas"><span>Buscar parlamentario</span><input type="search" id="search" placeholder="Nombre, bancada o circunscripción…" autocomplete="off"></label>
+  </div>
+  <div class="results-line"><p id="results-count" role="status" aria-live="polite">166 registros · Nómina electoral</p><button type="button" class="clear-filters" id="clear">↺ Limpiar filtros</button></div>
