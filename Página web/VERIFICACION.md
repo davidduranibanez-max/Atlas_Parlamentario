@@ -29,3 +29,7 @@ La compilación y dependencias de Astro son Linux/WSL. Las dependencias de Windo
 El sandbox bloquea apertura de puertos y conexiones de red normales (`EPERM`), comprobado en esta sesión. Servidor local y navegador requirieron permisos específicos de red/interoperabilidad; esas pruebas no demuestran ejecución de red dentro del sandbox restringido. Lecturas, exportación, compilación, comprobaciones de integridad y pruebas de lógica funcionaron con herramientas normales.
 
 Se probaron tamaños representativos en Chromium; no se probaron físicamente todos los celulares ni Safari. No se verificó alojamiento externo ni ejecución dentro de otros chats. Las fotos remotas pueden faltar y tienen sustitución por iniciales. La actividad individual conserva cobertura parcial y fecha de captura. La distribución histórica es una representación de la nómina de origen; no reconstruye cambios de bancada año a año. La línea de sucesos políticos sigue vacía, tal como se pidió.
+
+## Copia pública para GitHub
+
+Se excluyeron 329 números de CI, los ocho PDF fuente y todo el historial privado. Las copias originales se conservan localmente. La cuenta se verificó por la API de GitHub como `davidduranibanez-max`. La copia pública compiló correctamente y pasó las diez pruebas de lógica; su recorrido en navegador incluye la ficha y descarga de 2010 sin CI. La exportación posterior conserva los nombres, cámaras, condiciones y bancadas y vuelve a retirar los números de CI. Los datos públicos conservan el formato JSON compacto.

@@ -1,6 +1,6 @@
 {
   "resultado": "correcto",
-  "fecha": "2026-10-11T22:17:07.956Z",
+  "fecha": "2026-10-12T00:55:06.755Z",
   "checks": [
     "La apertura inicial no descarga la actividad de las fichas",
     "Directorio y ficha comienzan plegados y se despliegan por separado",
@@ -27,6 +27,7 @@
     "Cierre de ficha móvil",
     "16 tamaños entre 320 y 2560 px y orientación horizontal: sin desbordamiento; cabecera y ficha compactas",
     "Astro entrega los 166 escaños en HTML antes de ejecutar JavaScript",
+    "La ficha histórica y su descarga pública omiten la CI",
     "Sin errores JavaScript ni recursos estáticos fallidos"
   ],
   "responsive": [
@@ -176,52 +177,52 @@
     }
   ],
   "initialPerformance": {
-    "readyMs": 607,
+    "readyMs": 584.7000000029802,
     "resources": [
       {
         "url": "/_astro/index.jiBTb_LL.css",
         "bytes": 26990,
-        "durationMs": 13.800000011920929
+        "durationMs": 21.599999994039536
       },
       {
         "url": "/assets/template/plano-diputados.svg",
         "bytes": 15726,
-        "durationMs": 34.599999994039536
+        "durationMs": 55.1000000089407
       },
       {
         "url": "/assets/template/plano-senadores.svg",
         "bytes": 5477,
-        "durationMs": 44.20000000298023
+        "durationMs": 92.40000000596046
       },
       {
         "url": "/_astro/index.astro_astro_type_script_index_0_lang.DcmDpD6k.js",
         "bytes": 31813,
-        "durationMs": 24.200000002980232
+        "durationMs": 31.600000008940697
       },
       {
         "url": "/data/manifest.json",
-        "bytes": 34928,
-        "durationMs": 11.199999988079071
+        "bytes": 42393,
+        "durationMs": 26.700000002980232
       },
       {
         "url": "/data/lineas_tiempo.json",
         "bytes": 140,
-        "durationMs": 21.200000002980232
-      },
-      {
-        "url": "/assets/template/favicon.svg",
-        "bytes": 712,
-        "durationMs": 28.599999994039536
+        "durationMs": 41.599999994039536
       },
       {
         "url": "/data/gestiones/bo-eleccion-2025.json",
-        "bytes": 271141,
-        "durationMs": 19.700000002980232
+        "bytes": 348371,
+        "durationMs": 46.099999994039536
       },
       {
         "url": "/assets/template/favicon.svg",
         "bytes": 712,
-        "durationMs": 10.799999997019768
+        "durationMs": 58.5
+      },
+      {
+        "url": "/assets/template/favicon.svg",
+        "bytes": 712,
+        "durationMs": 13.5
       }
     ]
   },

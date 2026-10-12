@@ -1,10 +1,1 @@
-{
-  "version": 1,
-  "lineas": [
-    {
-      "id": "politica",
-      "titulo": "Sucesos políticos e hitos",
-      "sucesos": []
-    }
-  ]
-}
+{"version":1,"lineas":[{"id":"politica","titulo":"Sucesos políticos e hitos","sucesos":[]}]}
