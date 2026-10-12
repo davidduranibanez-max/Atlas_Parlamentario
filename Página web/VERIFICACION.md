@@ -33,3 +33,17 @@ Se probaron tamaños representativos en Chromium; no se probaron físicamente to
 ## Copia pública para GitHub
 
 Se excluyeron 329 números de CI, los ocho PDF fuente y todo el historial privado. Las copias originales se conservan localmente. La cuenta se verificó por la API de GitHub como `davidduranibanez-max`. La copia pública compiló correctamente y pasó las diez pruebas de lógica; su recorrido en navegador incluye la ficha y descarga de 2010 sin CI. La exportación posterior conserva los nombres, cámaras, condiciones y bancadas y vuelve a retirar los números de CI. Los datos públicos conservan el formato JSON compacto.
+
+## Configuración de GitHub Pages con Astro
+
+Preparación local del 11 de octubre de 2026 en la copia pública. El registro de Actions `38192277689` falló en «Build with Jekyll» porque trató el código de `Explorer.astro` como YAML. Se añadió un workflow de Astro que compila desde `Página web`, comprueba los pull requests y despliega sólo desde `main`. Utiliza Node 24, el lockfile existente y publica la salida estática. El comando `build:pages` configura `/Atlas_Parlamentario/`; el comando de compilación habitual mantiene `/`. El icono también respeta la ruta de publicación.
+
+Pruebas realizadas:
+
+- `npm run build:pages`, `npm test` y las diez pruebas ejecutadas directamente: correctos con Node Linux y herramientas normales del chat.
+- Workflow analizado con PyYAML: YAML válido; carpeta de compilación correcta; despliegue excluido para pull requests.
+- Navegador en `http://localhost:4190/Atlas_Parlamentario/`: 28 comprobaciones correctas, 45 años, fichas y descargas, 16 tamaños de pantalla, HTML sin JavaScript, estilos, scripts e icono con respuesta 200 bajo la ruta de publicación. Sin errores JavaScript ni archivos estáticos fallidos. Resultado en `verificacion/pruebas_github_pages.json`.
+- `npm run build` y el mismo recorrido en la raíz local `http://localhost:4191/`: correctos, 28 comprobaciones y 16 tamaños. Resultado en `verificacion/pruebas_local_despues_pages.json`. La salida local se dejó compilada para `/` y los servidores temporales de pruebas se cerraron.
+- JSON públicos revisados: ningún campo CI contiene números. No se modificaron los datos ni los archivos del proyecto original.
+
+Límites: la vista previa y el navegador requirieron permisos específicos porque el sandbox normal bloquea los puertos; las compilaciones y las pruebas de lógica funcionaron dentro del sandbox. El primer intento del navegador se realizó antes de que estuviera disponible el servidor y se repitió después de comprobar la respuesta HTTP. Sólo se probaron los servidores temporales de esta tarea; no se probaron otros chats. La ejecución de este nuevo workflow y el despliegue real en GitHub siguen pendientes de publicar e integrar el pull request. También debe seleccionarse **GitHub Actions** en **Settings → Pages → Source**; ese ajuste no se cambia mediante un archivo del repositorio. No se subieron cambios ni se modificaron los ajustes remotos.

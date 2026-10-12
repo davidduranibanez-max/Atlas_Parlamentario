@@ -5,15 +5,19 @@ import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
 const SITE_URL=process.argv[2]||'http://localhost:4173/';
+const SITE_ORIGIN=new URL(SITE_URL).origin;
+const REPORT_NAME=process.argv[3]||'pruebas_navegador.json';
 const {chromium}=require(process.env.ATLAS_PLAYWRIGHT||'C:/Users/Exsec/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const out=fileURLToPath(new URL('../verificacion/',import.meta.url));await mkdir(out,{recursive:true});
 const browser=await chromium.launch({headless:true,executablePath:process.env.ATLAS_CHROME||'C:/Users/Exsec/AppData/Local/ms-playwright/chromium-1223/chrome-win64/chrome.exe'});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});
-const errors=[];page.on('pageerror',err=>errors.push(err.message));const failed=[];page.on('response',r=>{if(r.url().startsWith(SITE_URL)&&r.status()>=400)failed.push({url:r.url(),status:r.status()});});
+const errors=[];page.on('pageerror',err=>errors.push(err.message));const failed=[];page.on('response',r=>{if(new URL(r.url()).origin===SITE_ORIGIN&&r.status()>=400)failed.push({url:r.url(),status:r.status()});});
 const responsive=[];let initialPerformance;const checks=[];const check=(name)=>{checks.push(name);console.log('OK',name);};
 try{
  const response=await page.goto(SITE_URL,{waitUntil:'networkidle'});assert.equal(response.status(),200);
  await page.waitForFunction(()=>performance.getEntriesByName('atlas-ready').length>0);
+ for(const resource of await page.locator('link[rel="stylesheet"],link[rel="icon"],script[src]').evaluateAll(els=>els.map(el=>el.href||el.src))){assert.ok(resource.startsWith(SITE_URL),`Recurso fuera de la ruta del sitio: ${resource}`);assert.equal((await page.request.get(resource)).status(),200);}
+ check('Estilos, scripts e icono cargan dentro de la ruta de publicación');
  initialPerformance=await page.evaluate(()=>({readyMs:performance.getEntriesByName('atlas-ready')[0].startTime,resources:performance.getEntriesByType('resource').filter(r=>r.name.startsWith(location.origin)).map(r=>({url:new URL(r.name).pathname,bytes:r.decodedBodySize,durationMs:r.duration}))}));
  assert.ok(initialPerformance.resources.every(r=>!r.url.includes('/data/fichas/')));check('La apertura inicial no descarga la actividad de las fichas');
  assert.equal(await page.locator('#directory-layout').evaluate(el=>el.open),false);assert.equal(await page.locator('#profile-layout').evaluate(el=>el.open),false);check('Directorio y ficha comienzan plegados y se despliegan por separado');
@@ -65,5 +69,5 @@ try{
  const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:1440,height:900}});const staticPage=await noJS.newPage();await staticPage.goto(SITE_URL);assert.equal(await staticPage.locator('.atlas-seat').count(),166);assert.ok(await staticPage.locator('#title-Diputados').isVisible());await noJS.close();check('Astro entrega los 166 escaños en HTML antes de ejecutar JavaScript');
  await page.setViewportSize({width:1440,height:1000});await page.locator('#year').selectOption('2010');await page.waitForFunction(()=>document.querySelector('#chambers').dataset.year==='2010');await page.locator('.atlas-seat:not(.has-issue)').first().click();await page.getByText('Todos los campos de la nómina original',{exact:true}).click();assert.ok(await page.getByText('Omitida en esta copia pública',{exact:true}).isVisible());const safeDownload=page.waitForEvent('download');await page.locator('#download-person').click();const safeFile=await(await safeDownload).path();const {readFile:readPublic}=await import('node:fs/promises');const publicPerson=JSON.parse(await readPublic(safeFile,'utf8'));assert.equal(publicPerson.ci,'Omitida en esta copia pública');check('La ficha histórica y su descarga pública omiten la CI');
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);check('Sin errores JavaScript ni recursos estáticos fallidos');
- await writeFile(out+'/pruebas_navegador.json',JSON.stringify({resultado:'correcto',fecha:new Date().toISOString(),checks,responsive,initialPerformance,errors,failed},null,2));
+ await writeFile(out+'/'+REPORT_NAME,JSON.stringify({resultado:'correcto',fecha:new Date().toISOString(),site:SITE_URL,checks,responsive,initialPerformance,errors,failed},null,2));
 }finally{await browser.close();}

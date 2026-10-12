@@ -8,7 +8,7 @@ import '../styles/atlas.css';
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
  <meta name="description" content="Atlas parlamentario de Bolivia desde 1982. Explora las cámaras, bancadas y fichas de parlamentarios por año y legislatura.">
  <meta name="theme-color" content="#fbf5eb"><title>Atlas parlamentario · Bolivia 1982–2026</title>
- <link rel="icon" href="/assets/template/favicon.svg" type="image/svg+xml">
+ <link rel="icon" href={`${import.meta.env.BASE_URL}assets/template/favicon.svg`} type="image/svg+xml">
  <script is:inline>try{if(localStorage.getItem('atlas-theme')==='dark')document.documentElement.classList.add('dark');}catch{}</script>
 </head>
 <body><slot /></body>

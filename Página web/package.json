@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "node scripts/astro.mjs dev",
     "build": "node scripts/astro.mjs build",
+    "build:pages": "node scripts/github-pages.mjs build",
     "preview": "node scripts/astro.mjs preview --host 127.0.0.1 --port 4174",
+    "preview:pages": "node scripts/github-pages.mjs preview --host 127.0.0.1 --port 4174",
     "start": "node scripts/servir.mjs",
     "test": "node --test tests/atlas.test.mjs",
     "data:export": "python3 scripts/exportar_datos.py"

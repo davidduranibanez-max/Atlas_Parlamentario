@@ -1,0 +1,48 @@
+name: Publicar Atlas con Astro
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Comprobar y compilar Astro
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el proyecto
+        uses: actions/checkout@v7
+      - name: Instalar, compilar y preparar la página estática
+        uses: withastro/action@v6
+        with:
+          path: 'Página web'
+          node-version: '24'
+          build-cmd: npm run build:pages
+      - name: Comprobar datos, filtros y geometría
+        working-directory: 'Página web'
+        run: npm test
+
+  deploy:
+    name: Publicar en GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplegar la página compilada
+        id: deployment
+        uses: actions/deploy-pages@v5
